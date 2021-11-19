@@ -2,6 +2,12 @@ from bs4 import BeautifulSoup
 from selenium import webdriver 
 from selenium.webdriver.chrome.options import Options
 
+# improve sait response?
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+
 import time
 import json
 import os
@@ -13,6 +19,8 @@ from urllib import parse
 
 import re
 
+# current trime 12 minutes to download
+
 class Coursera:
 
     def __init__(self, cauth, download_path = "."):
@@ -20,30 +28,31 @@ class Coursera:
         options = Options()
         options.headless = True
         options.add_argument('--log-level=2')
+        options.add_argument("--disable-extensions"); # disabling extensions
+        #options.add_argument("--disable-dev-shm-usage"); # overcome limited resource problems
+        #options.add_argument("--no-sandbox"); # Bypass OS security model
 
+        self.auth_cookie = {"name": "CAUTH", "value": cauth}
         # for webcrawling
-        self.crawl_stack = deque()
-        self.current_page = "https://www.coursera.org"
-
-
+        self.domain = "https://www.coursera.org"
+        
         self.driver = webdriver.Chrome('./chromedriver',options=options)
-        self.driver.get("https://www.coursera.org")
-        self.driver.add_cookie({"name": "CAUTH", "value": cauth})
+        self.driver.get(self.domain)
+        self.driver.add_cookie(self.auth_cookie)
 
         # set download path
         self.download_directory = download_path
         self.download_path = self.download_directory
 
+    def __del__(self):
+        self.driver.quit()
+        
     # downloads all the lectures for a class
     def download_class(self, class_name):
         # need to navigate to welcome page? 
 
-        class_home_page = f'https://www.coursera.org/learn/{class_name}/home/welcome'
+        class_home_page= f'https://www.coursera.org/learn/{class_name}/home/welcome'
 
-        print("fetching ",class_home_page)
-
-        #crawl_stack = deque()
-        #crawl_stack.append(class_home_page)
         # check for rc-WeekCollectionNavigationItem to get weeks?
         home_soup = self.get_html_soup(class_home_page, 5)
 
@@ -53,18 +62,20 @@ class Coursera:
             try:
                 self.download_path = os.path.join(self.download_directory, class_name)
                 os.makedirs(self.download_path, exist_ok=True)
+
+                for week in weeks:
+                    #print(week_url)
+                    self.download_week(week)
+                    # for each week get lecture 
+                        # for each lecture parse
+
             except FileExistsError:
                 print("Directory for {} already exists".format(class_name))
             # directory already exists
         else:
             print("Error: Unable to find lectures for this class")
             return
-        pass
-        for week in weeks:
-            #print(week_url)
-            self.download_week(week)
-            # for each week get lecture 
-                # for each lecture parse
+        
 
     def download_week(self, week_url):
         week_soup = self.get_html_soup(week_url, 5)
@@ -102,18 +113,30 @@ class Coursera:
         # write downloaded to file
         with open(download_path,"w") as f:
             # video_link at the start of file?
+            f.write(lecture_name + '\n')
             f.write(video_link + '\n')
             for j in range(len(lecture_data)):
                 f.write(lecture_timestamp[j] + " : " + lecture_data[j] + "\n")
 
     
     def get_html_soup(self, url, delay = 1):
+        print("Get: ", url)
         self.driver.get(url)
-        time.sleep(delay) # give it some time
+
+        time.sleep(delay)
+
+        """
+        try:
+            rendered = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.TAG_NAME , 'a')))
+            for l in rendered:
+               self.handle_link(l.get_attribute('href'))
+
+        except Exception as e:
+            print("Failed {} to load in time".format(url))
+        """
+
         res_html = self.driver.execute_script('return document.body.innerHTML')
 
-        with open("test.html", 'w') as h:
-            h.write(res_html)
         soup = BeautifulSoup(res_html,'html.parser') #beautiful soup object to be used for parsing html content
 
         return soup
@@ -123,25 +146,21 @@ class Coursera:
     # given a link pass it to other function
     # unused function
     def handle_link(self, link):
-        pass
-        lecture_re = re.compile
+
         some_url = parse.urlparse(link)
-        print(some_url)
         # insite move
         if some_url.netloc == "":
             some_url = some_url._replace(scheme="https", netloc="www.coursera.org")
-            path = some_url.path.split('/')
-            # path should be format  learn/{class_name}/{page_type}/*
-            if re.match("\/learn\/"):
-                # download lecture
-                print(some_url)
-                pass
-                # download_lecture()
-
-            elif path[3] == "home":
-                # searchable page for more links
-                print(some_url)
-                pass
+        
+        path = some_url.path
+        if re.match("\/learn\/.+\/lecture\/.+", path):
+            # download lecture
+            print("Lecture", some_url)
+                
+        elif re.match("\/learn\/.+\/home\/.+", path):
+            # searchable page for more links
+            print("Home page", some_url)
+                
 
 
     # look for links to the weeks

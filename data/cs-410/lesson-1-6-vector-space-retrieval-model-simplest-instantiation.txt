@@ -1,4 +1,5 @@
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Simplest_Instantiation_CSRA_Final.4cc9f8e0ce8311e4a3b3773664d69d62/full/540p/index.webm?Expires=1637193600&Signature=fxiCWrnr4WwXHY0e-wjR9eBOnerJZl1OsMdqxlpUOnOiQF7hcDhhg3u6NC5dbNASMJViV5n~q~RcdsJVgIZA0B1w1CNvgiHgWm2~9RXS1rzdaRxuBsfVivHKfCqFB-lLQ7blBQAgw96-jl33dqTdHRLxnCtzX0rOnOKkL0Qml-M_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+lesson-1-6-vector-space-retrieval-model-simplest-instantiation
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Simplest_Instantiation_CSRA_Final.4cc9f8e0ce8311e4a3b3773664d69d62/full/540p/index.webm?Expires=1637452800&Signature=NLs8puQZ5n89uX7Gp8R2RtCxxmw9h~nXppMk6WEO8rELBV9W6Fqc423RDxuUDqj8lMLiOOfGfM48pSa6o0GJt-YLOmbKRFW6IEzMULpdZbGcqEzBz8qWZEMR-SKWvHnabmCHBbt1qJc68E-1Lz6ik8i21qVzEj63c-lJJs46VXo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : In this lecture we're going to talk about how to instantiate vector space model so that we can get very specific ranking function. 
 0:22 : So this is to continue the discussion of the vector space model, which is one particular approach to design a ranking function. 
 0:34 : And we're going to talk about how we use the general framework of the the vector space model as a guidance to instantiate the framework to derive a specific ranking function. And we're going to cover the symbolist instantiation of the framework. 
