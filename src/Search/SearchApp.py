@@ -4,11 +4,50 @@ from whoosh import qparser
 from whoosh.index import open_dir, create_in
 from whoosh.scoring import TF_IDF, BM25F
 from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED, NUMERIC, NGRAMWORDS
-from whoosh.analysis import StemmingAnalyzer
+from whoosh.analysis import RegexTokenizer
+from whoosh.analysis import StopFilter
+from whoosh.lang.porter import stem
+
 
 
 def dataClean(fieldData):
-	return fieldData
+#lowercase, stop words, extra word removal,stemming
+	#print("main   "+fieldData)
+	
+	tokenizer = RegexTokenizer()
+	
+	#lowercase conversion
+	fieldData=fieldData.lower()	
+	
+	#remove extra words
+	for r in (("music", ""), ("sound", ""),("&gt","")):
+		fieldData = fieldData.replace(*r)
+    
+	'''
+ 	#stemming with whoosh (from whoosh.analysis import StemFilter is needed)
+	stream = tokenizer(fieldData)
+	stemmer = StemFilter()
+	data_clean=""
+	for token in stemmer(stream):
+		data_clean=data_clean+token.text+" "
+	print(data_clean)
+	'''
+
+	
+	#stop words with stopfilter in whoosh
+	data_clean=""
+	stopper = StopFilter() #stop word removal
+	tokens = stopper(tokenizer(fieldData))
+	
+	#stemming with stem in whoosh
+	for t in tokens:
+		s=stem(t.text) #stem
+		data_clean=data_clean+s+" "
+	print(data_clean)
+	
+	
+	return data_clean
+	
 
 
 list3=[]
