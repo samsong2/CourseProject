@@ -43,7 +43,7 @@ def dataClean(fieldData):
 	for t in tokens:
 		s=stem(t.text) #stem
 		data_clean=data_clean+s+" "
-	print(data_clean)
+	#print(data_clean)
 	
 	
 	return data_clean
@@ -155,12 +155,13 @@ queryString = " similarity function "
 ix = open_dir(dirname)
 qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartTime', 'FieldContent'], ix.schema, group=qparser.OrGroup)
 
-query = qp.parse(queryString)
+
 
 w = BM25F(B=0.75, K1=1.5)
 
 print("Search starting.....")
 '''
+query = qp.parse(dataClean(queryString))
 with ix.searcher(weighting=w) as searcher:
 	results = searcher.search(query, terms=True, limit=10)
 	found_doc_num = results.scored_length()
@@ -194,8 +195,10 @@ list3=[]
 '''
 def SearchTerm(searchData):
 
+	query = qp.parse(dataClean(searchData))
+	
 	with ix.searcher(weighting=w) as searcher:
-		#results = searcher.search(dataClean(searchData), terms=True)
+			#results = searcher.search(dataClean(searchData), terms=True)
 		results = searcher.search(query, terms=True, limit=10)
 		found_doc_num = results.scored_length()
 	#	run_time = results.runtime
@@ -226,6 +229,6 @@ def SearchTerm(searchData):
 	return list3
 
 searchResult=SearchTerm(queryString)
-print("Search result = ",searchResult)
-print("size = ",len(searchResult))
-print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
+#print("Search result = ",searchResult)
+#print("size = ",len(searchResult))
+#print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
