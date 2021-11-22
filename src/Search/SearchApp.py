@@ -185,6 +185,7 @@ list3=[]
 '''
 def SearchTerm(searchData):
 
+	list3=[]
 	query = qp.parse(dataClean(searchData))
 	
 	with ix.searcher(weighting=w) as searcher:
