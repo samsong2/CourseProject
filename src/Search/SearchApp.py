@@ -139,7 +139,7 @@ writer.commit()
 #print("documentNumber = ",documentNumber," list2.size = ",len(list2))
 
 
-#queryString = "compute these vectors exactly"
+queryString = "compute these vectors exactly"
 
 
 ix = open_dir(dirname)
@@ -149,7 +149,7 @@ qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartT
 
 w = BM25F(B=0.75, K1=1.5)
 
-print("Search starting.....")
+#print("Search starting.....")
 '''
 query = qp.parse(dataClean(queryString))
 with ix.searcher(weighting=w) as searcher:
@@ -218,7 +218,7 @@ def SearchTerm(searchData):
 	#print("list3 = ",list3)
 	return list3
 
-searchResult=SearchTerm(queryString)
+#searchResult=SearchTerm(queryString)
 #print("Search result = ",searchResult)
 #print("size = ",len(searchResult))
 #print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
