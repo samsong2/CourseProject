@@ -59,11 +59,9 @@ if not os.path.exists(dirname):
 #build schema in whoosh
 schema = Schema(
     DocNumber=NUMERIC(stored=True),
-    #DocNumber=ID(stored=True, unique=False),
     TitleOfPage=TEXT(stored=True, phrase=True, sortable=False),
     WebAddress=TEXT(stored=True, phrase=True, sortable=False),
     StartTime=TEXT(stored=True, phrase=True, sortable=False),
-    #FieldContent=TEXT(analyzer=StemmingAnalyzer(), stored=True, phrase=True, sortable=True)
     FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
 )
 
@@ -140,16 +138,8 @@ writer.commit()
 #   do eveything for whoosh
 #print("documentNumber = ",documentNumber," list2.size = ",len(list2))
 
-#queryString = " bM25 "
-#queryString = " relevant document"
-queryString = " similarity function "
-#queryString = " simila funct "
-#queryString = " funct simila"
-#queryString = " function "
+
 #queryString = "compute these vectors exactly"
-#queryString = "vector"
-#queryString = " bM25 "
-#search_type = "BM25"
 
 
 ix = open_dir(dirname)
