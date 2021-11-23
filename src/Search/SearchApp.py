@@ -183,6 +183,7 @@ print("list3 = ",list3)
 #return list3
 list3=[]
 '''
+
 def SearchTerm(searchData):
 
 	list3=[]
@@ -219,7 +220,7 @@ def SearchTerm(searchData):
 	#print("list3 = ",list3)
 	return list3
 
-#searchResult=SearchTerm(queryString)
-#print("Search result = ",searchResult)
-#print("size = ",len(searchResult))
-#print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
+searchResult=SearchTerm(queryString)
+print("Search result = ",searchResult)
+print("size = ",len(searchResult))
+print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")

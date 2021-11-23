@@ -19,6 +19,7 @@
 
             <!-- For each result -->
             <section class="col-xs-12 col-sm-6 col-md-12">
+                {% for n in search_results %}
                 <article class="search-result row">
                     <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
                         <h3><a href={{n[0]}} title="">{{n[1]}}</a></h3>
@@ -26,6 +27,7 @@
                     </div>
                     <span class="clearfix borda"></span>
                 </article>
+                {% endfor %}
             </section>
         </div>
         <div class="container">
