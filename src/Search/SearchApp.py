@@ -65,7 +65,8 @@ schema = Schema(
     FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
 )
 
-"""
+
+# building of the schema needs to be in a seperate script.
 #create index
 ix = create_in(dirname, schema)
 writer = ix.writer()
@@ -138,7 +139,6 @@ for filename in os.listdir(data_dir):
 writer.commit()
 #   do eveything for whoosh
 #print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-"""
 
 queryString = "compute these vectors exactly"
 
