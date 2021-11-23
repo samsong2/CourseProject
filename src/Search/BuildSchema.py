@@ -9,7 +9,7 @@ from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
 
 
-
+# building of the schema needs to be in a seperate script.
 def dataClean(fieldData):
 #lowercase, stop words, extra word removal,stemming
 	#print("main   "+fieldData)
@@ -57,8 +57,6 @@ if not os.path.exists(dirname):
     os.mkdir(dirname)
 
 #build schema in whoosh
-# building of the schema needs to be in a seperate script.
-"""
 schema = Schema(
     DocNumber=NUMERIC(stored=True),
     TitleOfPage=TEXT(stored=True, phrase=True, sortable=False),
@@ -68,6 +66,7 @@ schema = Schema(
 )
 
 
+# building of the schema needs to be in a seperate script.
 #create index
 ix = create_in(dirname, schema)
 writer = ix.writer()
@@ -138,97 +137,3 @@ for filename in os.listdir(data_dir):
 						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=u'None', StartTime=startTime, FieldContent=u'None',)
 
 writer.commit()
-#   do eveything for whoosh
-#print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-"""
-queryString = "compute these vectors exactly"
-
-
-ix = open_dir(dirname)
-qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartTime', 'FieldContent'], ix.schema, group=qparser.OrGroup)
-
-
-
-w = BM25F(B=0.75, K1=1.5)
-
-#print("Search starting.....")
-'''
-query = qp.parse(dataClean(queryString))
-with ix.searcher(weighting=w) as searcher:
-	results = searcher.search(query, terms=True, limit=10)
-	found_doc_num = results.scored_length()
-#	run_time = results.runtime
-
-	
-
-	if results:
-		i=0
-		for hit in results:
-			i+=1
-			title_page = hit['TitleOfPage']
-			doc_num = hit['DocNumber']
-			web_address = hit['WebAddress']
-			st_time = hit['StartTime']
-			fld_content = hit['FieldContent']
-			score = hit.score
-			print("\n\n\n")
-			print("In hit : ",title_page,doc_num,web_address,st_time,fld_content, score, '\n')
-			list3.append(list2[doc_num])
-			print("In hit : docnum = ",doc_num," list2 = ",list2[doc_num])
-			#if i>=10:
-			#		break
-			
-print("Search done found_doc_num = ",found_doc_num)
-#print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-print("Search end.....\n\n")
-print("list3 = ",list3)
-#return list3
-list3=[]
-'''
-
-def SearchTerm(searchData):
-
-	list3=[]
-	query = qp.parse(dataClean(searchData))
-	
-
-	with ix.searcher(weighting=w) as searcher:
-			#results = searcher.search(dataClean(searchData), terms=True)
-		results = searcher.search(query, terms=True, limit=10)
-		found_doc_num = results.scored_length()
-	#	run_time = results.runtime
-
-		#print("Search done found_doc_num = ",found_doc_num)
-
-		
-		if results:
-			i=0
-			for hit in results:
-				i+=1
-
-				title_page = hit['TitleOfPage']
-				doc_num = hit['DocNumber']
-				web_address = hit['WebAddress']
-				st_time = hit['StartTime']
-				fld_content = hit['FieldContent']
-				score = hit.score
-
-				#print("\n\n")
-				#print(title_page,doc_num,web_address,st_time,fld_content, score, '\n')
-
-				# should ideally be saving data from hit instead of list
-				list3.append(dict(hit))
-				#list3.append(list2[doc_num])
-				#print("docnum = ",doc_num," list2 = ",list2[doc_num])
-				#if i>=10:
-					#break
-
-	#print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-	#print("Search end.....\n\n")
-	#print("list3 = ",list3)
-	return list3
-
-#searchResult=SearchTerm(queryString)
-#print("Search result = ",searchResult)
-#print("size = ",len(searchResult))
-#print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
