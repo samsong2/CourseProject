@@ -190,8 +190,6 @@ def SearchTerm(searchData):
 	query = qp.parse(dataClean(searchData))
 	
 
-	print("list2", list2)
-
 	with ix.searcher(weighting=w) as searcher:
 			#results = searcher.search(dataClean(searchData), terms=True)
 		results = searcher.search(query, terms=True, limit=10)
@@ -205,15 +203,20 @@ def SearchTerm(searchData):
 			i=0
 			for hit in results:
 				i+=1
+
 				title_page = hit['TitleOfPage']
 				doc_num = hit['DocNumber']
 				web_address = hit['WebAddress']
 				st_time = hit['StartTime']
 				fld_content = hit['FieldContent']
 				score = hit.score
+
 				#print("\n\n")
 				#print(title_page,doc_num,web_address,st_time,fld_content, score, '\n')
-				list3.append(list2[doc_num])
+
+				# should ideally be saving data from hit instead of list
+				list3.append(dict(hit))
+				#list3.append(list2[doc_num])
 				#print("docnum = ",doc_num," list2 = ",list2[doc_num])
 				#if i>=10:
 					#break
