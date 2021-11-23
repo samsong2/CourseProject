@@ -65,6 +65,7 @@ schema = Schema(
     FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
 )
 
+"""
 #create index
 ix = create_in(dirname, schema)
 writer = ix.writer()
@@ -137,7 +138,7 @@ for filename in os.listdir(data_dir):
 writer.commit()
 #   do eveything for whoosh
 #print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-
+"""
 
 queryString = "compute these vectors exactly"
 
@@ -220,7 +221,7 @@ def SearchTerm(searchData):
 	#print("list3 = ",list3)
 	return list3
 
-searchResult=SearchTerm(queryString)
-print("Search result = ",searchResult)
-print("size = ",len(searchResult))
-print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
+#searchResult=SearchTerm(queryString)
+#print("Search result = ",searchResult)
+#print("size = ",len(searchResult))
+#print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
