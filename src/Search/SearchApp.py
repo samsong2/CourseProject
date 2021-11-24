@@ -246,7 +246,6 @@ def my_form_post():
     print('querying', query)
 
     best_docs_info = get_matching_docs(query, page_no) #specify text to search for here
-    best_docs = best_docs_info[0]
+    search_results = best_docs_info[0]
     total_results = best_docs_info[1]
-    search_results = format_results(best_docs, query)
     return render_template('results.html', search_results=search_results, num_results=len(best_docs), query=query, page_no=page_no, total_results=total_results)
