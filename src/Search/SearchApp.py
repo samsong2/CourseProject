@@ -232,3 +232,21 @@ def SearchTerm(searchData):
 #print("Search result = ",searchResult)
 #print("size = ",len(searchResult))
 #print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
+
+@app.route('/')
+def home():
+    return render_template('main.html')
+
+@app.route('/', methods=['POST'])
+def my_form_post():
+    query = request.form['query'].lower()
+    if len(query) == 0:
+        return render_template('main.html')
+
+    print('querying', query)
+
+    best_docs_info = get_matching_docs(query, page_no) #specify text to search for here
+    best_docs = best_docs_info[0]
+    total_results = best_docs_info[1]
+    search_results = format_results(best_docs, query)
+    return render_template('results.html', search_results=search_results, num_results=len(best_docs), query=query, page_no=page_no, total_results=total_results)
