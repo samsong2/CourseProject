@@ -7,6 +7,7 @@ from whoosh.fields import Schema, TEXT, KEYWORD, ID, STORED, NUMERIC, NGRAMWORDS
 from whoosh.analysis import RegexTokenizer
 from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
+from flask import Flask, request, render_template
 
 
 
@@ -235,17 +236,16 @@ def SearchTerm(searchData):
 
 @app.route('/')
 def home():
-    return render_template('main.html')
+    return render_template('index.html')
 
 @app.route('/', methods=['POST'])
 def my_form_post():
     query = request.form['query'].lower()
     if len(query) == 0:
-        return render_template('main.html')
+        return render_template('index.html')
 
     print('querying', query)
 
-    best_docs_info = get_matching_docs(query, page_no) #specify text to search for here
-    search_results = best_docs_info[0]
-    total_results = best_docs_info[1]
-    return render_template('results.html', search_results=search_results, num_results=len(best_docs), query=query, page_no=page_no, total_results=total_results)
+    #search_results = 
+    #total_results = 
+    return render_template('results.html', search_results=search_results, num_results=len(), query=query, page_no=page_no, total_results=total_results)
