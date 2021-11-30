@@ -1,5 +1,5 @@
 lesson-3-6-evaluation-of-tr-systems-practical-issues
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_22_Practical_Issues_CSRA_Final_v2.7384fb00d42911e4b5a5bfecb06e873e/full/540p/index.webm?Expires=1637452800&Signature=LXsvtGCv382pO1sS16v7o~VrjiYgmKDT2bNBJmUx~Vlsa2z824Kf2jznt2jUVwHPdTvuxoKIlLfHv1tcbXz76q2zAEoJzKl9V6Ju3UeqiLFOsOYJdyZBFetHlDwxBpybM13WVqp~cknBw-wjzKUfnFYEDLmN0PJCZz3aWXv0oFw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_22_Practical_Issues_CSRA_Final_v2.7384fb00d42911e4b5a5bfecb06e873e/full/540p/index.webm?Expires=1637798400&Signature=IPLLY8bWDHxn3t2wOssaCZ3uKaDwqtRzXlffgYPS266OZIEXVpDgTpdLGE9COvpeWFc1jluSEXi8h5oPFUcBxFSXPWaYAh8LLv7hYPgKbhMshCXtf71Tprb--V0r0i7R4UMVgU3GvOMgu1B3r7KSG1skCWtFnhNepKp~TKm-NLM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND]. This lecture is about some practical issues that you would have to address in evaluation of text retrieval systems. 
 0:14 : In this lecture, we will continue the discussion of evaluation. We'll cover some practical issues that you have to solve in actual evaluation of text retrieval systems. 
 0:25 : So, in order to create the test collection, we have to create a set of queries. A set of documents and a set of relevance judgments. 

@@ -1,5 +1,5 @@
 lesson-6-4-future-of-web-search
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_30_FutureWebsearch_CSRA_Final.c70d4af0de4e11e4811aa3406f1f902b/full/540p/index.webm?Expires=1637452800&Signature=VQ9t~JPYbioI9A8Iggj-sL4ZYxZCFn-GHtgklI7TMJTaTb-6oEaFXiczmBi2E6G~lJ7ej51ZarBoYDOLi6bI4XPbu7MCHcv7VET7eGtVc3SvjLxX00b~Pgy~0sZ-mroqiT54F4FjIWqHXdVi7kT7k4LcOlfvRf8bbskoQiNWXnI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_30_FutureWebsearch_CSRA_Final.c70d4af0de4e11e4811aa3406f1f902b/full/540p/index.webm?Expires=1637798400&Signature=TYaWWjsbO1KwQQZomxouJ9br7-Kw2xymZZYXhH8xft2odrw-iGDaUtvIUj-SW2~dwtQzGUgxX~1l24o2xokk6YQTt6u2Enk7hgaB4BTuQ8VurF~qXdX0RV-Jm7i98Y4MvfT9jQO6z-DgAcOgh~sDz4DWD53uGAkV4rIOF3sRXEA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND]. 
 0:07 : This lecture is about the future of web search. 
 0:12 : In this lecture, we're going to talk about some possible future trends of web search and intelligent information retrieval systems in general. 

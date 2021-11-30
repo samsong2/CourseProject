@@ -11,7 +11,7 @@ from whoosh.lang.porter import stem
 
 
 def dataClean(fieldData):
-#lowercase, stop words, extra word removal,stemming
+	#lowercase, stop words, extra word removal,stemming
 	#print("main   "+fieldData)
 	
 	tokenizer = RegexTokenizer()

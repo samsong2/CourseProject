@@ -1,5 +1,5 @@
 lesson-1-5-vector-space-model-basic-idea
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Vector_Space_Basic_CSRA_Final_v2.a35e9340cf3811e4b680ed55d157d6c0/full/540p/index.webm?Expires=1637452800&Signature=SmGBpcPWPVFUYUoxi91rED-lVBL5TnTFOWQgCyd3o5a9CVreID1KWO3GMpiT6WWKOkPKDqj0N0qQ8dx7QQuenAdldGa836QACiancGgiIIWDTaseahPJlu9Hl5QvUA0tExnVPoq-zTf5F9m7a6VRxaODgrfbOkSuOTfYHdRw0qg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Vector_Space_Basic_CSRA_Final_v2.a35e9340cf3811e4b680ed55d157d6c0/full/540p/index.webm?Expires=1637798400&Signature=H-giACnFDp5d~T35jRFHlg~MKybaxVZybfbANAiUspa~nfGjDND2lWVnHmmmXXCwl7ui5Rww2V0W7HOlaN75NUtiZCb9inMI9VfEKiDMaLoCLZytIfj20m7YIgvUvSMyFgglBhScsRzqwOUV5umK2YAFLCoqNKEU4bga~38p20g_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about the vector space retrieval model. We're going to give an introduction to its basic idea. 
 0:18 : In the last lecture, we talked about the different ways of designing a retrieval model, which would give us a different arranging function. 
 0:30 : In this lecture, we're going to talk about a specific way of designing a ramping function called a vector space retrieval model. 

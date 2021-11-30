@@ -202,8 +202,4 @@ class Coursera:
         text_timestamp = [t.contents[1] for t in timestamps]
         text_data = [d.text for d in data]
 
-        # maybe json style
-        #time_stamped_text = dict(zip(text_timestamp, text_data))
-        #print(time_stamped_text)
-        
         return video_link, text_timestamp, text_data

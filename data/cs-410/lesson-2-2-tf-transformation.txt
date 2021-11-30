@@ -1,5 +1,5 @@
 lesson-2-2-tf-transformation
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_TF_Transformation_CSRA_Final1.ab037f50ce8411e4a62583bd7be1d28d/full/540p/index.webm?Expires=1637452800&Signature=dev6ZFERCImHALMju~JlZPjWeLOuCjMccUUilooQBv5wnhJQNO5~LVrlLD~C9h3ZHVUIVD0FgOL569x6jVKtNahXGC0nVmkfqFE2sUovHGp4gQAe1hX9iTCkXMAAPP2LGQwM7GMa5G8sUYXLV5gUFOXA3N82KCi3-1rHqKxAbhU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_TF_Transformation_CSRA_Final1.ab037f50ce8411e4a62583bd7be1d28d/full/540p/index.webm?Expires=1637798400&Signature=dVoyBM4XFCeCKbwVXvVYFkOmGv-N6GX9uWnRE3dJPpO5AITLF7wiJj7WHsn8OiNvaDpmihteE2mXtLNmbIHbpiqpBmiPHz4U0HRWx2nowEdgnM77nYD5-FZRM2vr~5RKDIFEpwaAHxwvxNs9TwSEwsBioQvEhp2cjPWSYW6TqpQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:10 : In this lecture, we continue the discussion of vector space model. In particular, we're going to talk about the TF transformation. In the previous lecture, we have derived a TF idea of weighting formula using the vector space model. 
 0:27 : And we have assumed that this model actually works pretty well for these examples as shown on this slide, except for d5, which has received a very high score. Indeed, it has received the highest score among all these documents. But this document is intuitive and non-relevant, so this is not desirable. 

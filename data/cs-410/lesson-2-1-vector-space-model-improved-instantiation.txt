@@ -1,5 +1,5 @@
 lesson-2-1-vector-space-model-improved-instantiation
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Vector_Space_ImprovedI_CSRA_Final.fb3f7db0ce8211e4adb6051d502ea81b/full/540p/index.webm?Expires=1637452800&Signature=A~0oU7XlF0MrxgyzeWf4gQNE0~9baoT9V81Iiw9HmNgSqIhqMK5OUy4AigdVCHqWaEfhQERrIdS0iIn5y3R1BKbVslbrUR~I74QiTGnVmofTwq7lGJuz5ZLav-v9dCtfDa9p0GVyTkETArO5uqiRhbCXCWBnL31IUIdR5BV7~5A_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Vector_Space_ImprovedI_CSRA_Final.fb3f7db0ce8211e4adb6051d502ea81b/full/540p/index.webm?Expires=1637798400&Signature=NKOo4y~tqBBJPqL0oFvm4bH-9mp39scjigRtZiYApMRJnSFZHTTD3haa7eZftEw7BiohhCOa5gmwkwQiKzbZDI5WcZHOQpugXhr70DoAcqhDaxgXBQs6uq0nDi4nghRlF5jb~yY17NWw77-v7Qbmwbd1ZoGUGZHPbQEoCNg9jnI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] In this lecture, we are going to talk about how to improve the instantiation of the vector space model. 
 0:17 : This is a continued discussion of the vector space model. We're going to focus on how to improve the instantiation of this model. 
 0:30 : In the previous lecture, you have seen that with simple instantiations of the vector space model, we can come up with a simple scoring function that would give us basically an account of how many unique query terms are matched in the document. 

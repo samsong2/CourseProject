@@ -1,5 +1,5 @@
 lesson-2-6-system-implementation-fast-search
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_25_Fast_Search_CSRA_Final.f2a0a3b0d3db11e4aa48096e93cd07f9/full/540p/index.webm?Expires=1637452800&Signature=F5mp3XhFFS6QwJ-G4xQ2fWlM-KNGNHe8gTKuX94fZpOmNI8vgsFCl7eN8vjbanny5AlxjKspV4DZ5AytyGP9hD64DjGLEfylcXagSLFSBF-HAGYm-d4d0UnmW0n7MuCJiB-7eKq9iOyYfOWPEIqlnsfQqC-wsABVy2qVSdagoPM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_25_Fast_Search_CSRA_Final.f2a0a3b0d3db11e4aa48096e93cd07f9/full/540p/index.webm?Expires=1637798400&Signature=S~maUMHAH7P1AY-Z5Fr8RXb1Uj~HCNGc4DvkYUjeBhPGKcKlSCZBPqN5Db8YsEReCtG4DGnsqHb2XOa5BtR-rxxN7YLWdUd0ILUTvtZw59LEZF-ryoEKr2ngsowLWCc5ODNB~WJ~gnDZV848XV-6OdSZEMtcKWHS~KY4~h00LN8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about how to do faster search by using invert index. 
 0:14 : In this lecture, we're going to continue the discussion of system implementation. In particular, we're going to talk about how to support a faster search by using invert index. 
 0:26 : So let's think about what a general scoring function might look like. 
