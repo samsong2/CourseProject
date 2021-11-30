@@ -1,5 +1,5 @@
 lesson-5-1-feedback-in-text-retrieval
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_15_3.6_Feedback_in_Text_Retrieval_v2.51ae10b0d98411e485a2a7b08b0d8b74/full/540p/index.webm?Expires=1637798400&Signature=De~SwqqKsDGOth0O05ZmOxAT9A9VHtRcyApGo4~zTeBprXpQOPoWj7eJWlX1UUtd1mnBUqFmiOpt8QIybC3zpciBfBOd3ELZVV8-Q7Y1543BM3dZ8o5gsVV~TXMIsaLnvgjEM-d7Je~ZfKN3QVlfG~sM15XUUeHPAX2fbHzktCI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_15_3.6_Feedback_in_Text_Retrieval_v2.51ae10b0d98411e485a2a7b08b0d8b74/full/540p/index.webm?Expires=1638403200&Signature=TQ4Sd44IG670BtgMsax2qCUWTW0nSM0M-68uhX4zN195OMoqnHkL0aW2WfP0kutGUjhAez5uw4YV~37ALFi0r6FaT92bTPdeC~Ln7abxYik0vp7pShdSaGfPOynkpADDGrPS6YwDDhasRlAibeEdnOTMrI4dzxpfIDJfTVwQ~mQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about the feedback in text retrieval. 
 0:12 : So in this lecture, we will continue with the discussion of text retrieval methods. 
 0:18 : In particular, we're going to talk about the feedback in text retrieval. 

@@ -1,5 +1,5 @@
 lesson-3-1-evaluation-of-tr-systems
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_18_Eval_CSRA_Final.0ae24c70d3e211e4a1133f8866a6355d/full/540p/index.webm?Expires=1637798400&Signature=L6~bZNbalGpvPVk3R1gBrAigkYq1XwMNsP~GjYxBIieUlpi4MiTicKnHC6mHaXL7qpGh5ghbBV0lAhoz7wBrDme95Ep2l9dB57Qct9mXazPttnZ0QSskIyWhChKt~MnT~tbJPuAT1krekNxsSNwzNou-IV0rjLyR0HS8Xhg67eg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_18_Eval_CSRA_Final.0ae24c70d3e211e4a1133f8866a6355d/full/540p/index.webm?Expires=1638403200&Signature=fcP5vrQGtzx6t88OuC3aVcUHF1WbTgp2sLIzy4efvR~ddHVJ7w7wYvhch4MPpQ1CHtSangmwl9BBECnpKuPADXBfJ9dXtu71nrh0OoKPN46vGghw8BsRJh~eEdy1VGSLMyBOaxs3dKTzk4noeiVyEGJzCXfQywVJLMDTA1Zvm1c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:07 : This lecture is about Evaluation of Text Retrieval Systems In the previous lectures, we have talked about the a number of Text Retrieval Methods, different kinds of ranking functions. 
 0:23 : But how do we know which one works the best? In order to answer this question, we have to compare them and that means we have to evaluate these retrieval methods. 

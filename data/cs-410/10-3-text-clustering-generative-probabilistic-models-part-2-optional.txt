@@ -1,5 +1,5 @@
 10-3-text-clustering-generative-probabilistic-models-part-2-optional
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-24_CSRA_Final.aa40e72016b511e59041a90f7c7df239/full/540p/index.webm?Expires=1637798400&Signature=DsyMk-JIL~1H410DHPGHcMeXErgS52W0xl64zEjS54VilET7SKFWKA8H7IsTNjkl6WRptozjcE0svkA2gCyd7RIr74jkZMT9JsuJoeHNAaL3VIT07507VKbc4~0Nj~11kmTj4lOc1acEx0nMKqUbvJexJbkVfSAY5KnGqz9Fb3s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-24_CSRA_Final.aa40e72016b511e59041a90f7c7df239/full/540p/index.webm?Expires=1638403200&Signature=fsm7iL~16m49RWCdHh-2ijlJm2X~mo7XEnbvj8XP9X54P8PN4FiDurAu3RqDJF1CSASL2Gqe7ZNqo6qGgSM7o5~szK5G~rAfxH19HUaiOFzQc-5TEmRQ1vrPTr5r0-zHU-WUKPXtMDtzjkqK91KEfuz5BSc8T1lRMibXps1q06c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is a continuing discussion of Generative Probabilistic Models for text clustering. 
 0:13 : In this lecture, we are going to continue talking about the text clustering, particularly, the Generative Probabilistic Models. 
 0:23 : So this is a slide that you have seen earlier where we have written down the likelihood function for a document with two distributions, being a two component mixed model for document clustering. 

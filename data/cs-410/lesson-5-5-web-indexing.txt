@@ -1,5 +1,5 @@
 lesson-5-5-web-indexing
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_27_Web_Indexing_CSRA_Final_v2.6806cb60deff11e489a0bdebfb229a69/full/540p/index.webm?Expires=1637798400&Signature=anQ9wWnX330TiBXyWwp1sCY-Y2~VcUv3J8OWhlunQGnB3Mxdhu6-ZbuEc-fr5GBgY2A2Nw48sja~vsJeGGB8hwJd9Vbm0T~GVKwUw-BprhIuXEb5A3YGzNSqVfzCUzjgC2sUKir383XTdTxmiuA0BAUbGhgYKAtP8td6L3Fd~y0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_27_Web_Indexing_CSRA_Final_v2.6806cb60deff11e489a0bdebfb229a69/full/540p/index.webm?Expires=1638403200&Signature=HZK5TprHj35R0G1RqLWDxfvDOr4J~GsJvOnxNOdPVmh2d5GXh5HB8KE3oMBee0rkAW6446LdCBZZf86ry36dECTM-Okf3MuWhPO-8hPFoENUmAZ8f2JlnoCsx0G9ZPMgenKuE0bo0ui8rlr5f6vtYJoCO4JXDpsaw4W0Io60iZ4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:07 : This lecture is about the Web Indexing. 
 0:11 : In this lecture, we will continue talking about the Web Search and we're going to talk about how to create a Web Scale Index. 
