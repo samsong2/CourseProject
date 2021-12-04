@@ -59,7 +59,6 @@ if not os.path.exists(dirname):
 
 #build schema in whoosh
 # building of the schema needs to be in a seperate script.
-"""
 schema = Schema(
     DocNumber=NUMERIC(stored=True),
     TitleOfPage=TEXT(stored=True, phrase=True, sortable=False),
@@ -68,80 +67,8 @@ schema = Schema(
     FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
 )
 
-
-#create index
-ix = create_in(dirname, schema)
-writer = ix.writer()
-
-
-list1=[]
-list2=[] # contains all the data?
-documentNumber = -1
-title_of_page=''
-webAddress=''
-startTime =''
-fieldContent =''
-data_dir='../../data/cs-410/'
-for filename in os.listdir(data_dir):
-	#print('filename : ',filename)
-	fileName=data_dir+filename
-	#print('fileName : ',fileName)
-	with open(fileName,'r') as f:
-		lines=f.readlines()
-		for ii in range(len(lines)):
-			list1=[]
-			if ii==0:
-				title_of_page=''
-				title_of_page=lines[ii].split('\n')[0].title()
-				#list1.append(title_of_page)
-				#print("list1 = ",list1)
-			else:
-				if ii==1:
-					webAddress=''
-					if lines[ii].lower().startswith("http"):
-						webAddress=lines[ii].split('\n')[0]
-					#list1.append(webAddress)
-					#print("list1 = ",list1)
-				else:
-					#print("else part list1 = ",list1)
-					xx=lines[ii].split(' : ')
-					#print("xx = ",xx)
-					if len(xx)>0:
-						startTime=xx[0]
-					else:
-						startTime=''
-					if len(xx)>1:
-						fieldContent=xx[1]
-					else:
-						fieldContent=''
-					#list1.append(startTime)
-					#list1.append(fieldContent)
-		
-					#print("else 2nd part list1 = ",list1)
-					#print("before documentNumber = ",documentNumber)
-					documentNumber += 1
-					#print("after documentNumber = ",documentNumber)
-					#list2.append(list1)
-					fieldContentCleaned =dataClean(fieldContent)
-					list1.append(title_of_page)
-					list1.append(webAddress)
-					list1.append(startTime)
-					list1.append(fieldContent)
-					list2.append(list1)
-					#print("All fields : title_of_page = ",title_of_page," Doc-num = ",documentNumber,", webAddress = ", webAddress, ", st-time = ",startTime, ", fieldContent = ",fieldContentCleaned)
-					#print("list2 = ",list2)
-	#   			add documentNumber,webAddress, startTime, fieldContentCleaned to whoosh
-					try:
-						#print("writer.add_document working....")
-						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=webAddress, StartTime=startTime, FieldContent=fieldContentCleaned,)
-					except:
-						#print("writer.add_document did not work....")
-						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=u'None', StartTime=startTime, FieldContent=u'None',)
-
-writer.commit()
 #   do eveything for whoosh
 #print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-"""
 queryString = "compute these vectors exactly"
 
 
@@ -152,40 +79,6 @@ qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartT
 
 w = BM25F(B=0.75, K1=1.5)
 
-#print("Search starting.....")
-'''
-query = qp.parse(dataClean(queryString))
-with ix.searcher(weighting=w) as searcher:
-	results = searcher.search(query, terms=True, limit=10)
-	found_doc_num = results.scored_length()
-#	run_time = results.runtime
-
-	
-
-	if results:
-		i=0
-		for hit in results:
-			i+=1
-			title_page = hit['TitleOfPage']
-			doc_num = hit['DocNumber']
-			web_address = hit['WebAddress']
-			st_time = hit['StartTime']
-			fld_content = hit['FieldContent']
-			score = hit.score
-			print("\n\n\n")
-			print("In hit : ",title_page,doc_num,web_address,st_time,fld_content, score, '\n')
-			list3.append(list2[doc_num])
-			print("In hit : docnum = ",doc_num," list2 = ",list2[doc_num])
-			#if i>=10:
-			#		break
-			
-print("Search done found_doc_num = ",found_doc_num)
-#print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-print("Search end.....\n\n")
-print("list3 = ",list3)
-#return list3
-list3=[]
-'''
 
 def SearchTerm(searchData):
 
