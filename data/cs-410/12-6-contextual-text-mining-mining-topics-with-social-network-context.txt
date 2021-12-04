@@ -1,5 +1,5 @@
 12-6-contextual-text-mining-mining-topics-with-social-network-context
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-43_CSRA_Final.12bec9a01c2111e589355523aeb4a42b/full/540p/index.webm?Expires=1638403200&Signature=cz68uJShI5YQ6Lt1cnHTLjIfKcTW0p6KH-IFapiz9EaU4PadxzkqU-SkG~yLSZOZBlUmB8XtMu3qzg9tRGfuopePKA0PIygXS~T6Z8CBATrBD9FsIPhTSSMym3qjq0q5ARTdWMvX7YRUM8t0-Xz2IVGDIBBILcKDTz3P57xxe8Q_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-43_CSRA_Final.12bec9a01c2111e589355523aeb4a42b/full/540p/index.webm?Expires=1638748800&Signature=PT4aJcbiOah26ZX5RB79iYhbOA6~UO8iH41HlEmry0qVKOVZn863ROTLZ~Ip8r1sVELRYxy1omCmDwdWLZBIh9~af8-J323WqzBN66qrkZXFNZQp5lASVz2nqvTeJV5VAq3wbJS1UCvaUrXru6PK9bOJDcOoNlfUJUqwdVLWE-I_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about how to mine text data with social network as context. In this lecture we're going to continue discussing contextual text mining. In particular, we're going to look at the social network of others as context. 
 0:26 : So first, what's our motivation for using network context for analysis of text? 
 0:32 : The context of a text article can form a network. 

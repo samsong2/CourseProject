@@ -1,5 +1,5 @@
 7-1-overview-text-mining-and-analytics-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-3_overview_part_1.0241d1e00a6911e58db13bf75473980f/full/540p/index.webm?Expires=1638403200&Signature=FQnjScpwZgyB8NyB6fBLRjC8Ud6iPdv5aOzzJTRQXRySmlqyPXHZ~kFUTNg3W4Qlz4G7WqWB6W1rOWUmW2ojtRgJ7QbPYqVnqifMU7DusgvVNeiLS9JsJk6puYecvfPaxXPOXZ-aX~ykFtUfPKaWE0G8JrscmdCb7Fw92ilxcEI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-3_overview_part_1.0241d1e00a6911e58db13bf75473980f/full/540p/index.webm?Expires=1638748800&Signature=HhznMX0riFt75z9RAzEaf4zCHTBXdzubwaifBcN~1tCR7Ebcx1PHHoGaNfOcwgPonAlyl18rLBctS9eZbDVOUBGFO9iybKl5n3JSwRplzwmJRjU7fYnZDnEONLdGNmyf7GILveeyMx7-3GEdXNVamwarAQ8I2d59jWYebPqV-WE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] In this lecture we give an overview of Text Mining and Analytics. 
 0:13 : First, let's define the term text mining, and the term text analytics. The title of this course is called Text Mining and Analytics. 
 0:25 : But the two terms text mining, and text analytics are actually roughly the same. 

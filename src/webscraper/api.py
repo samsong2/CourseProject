@@ -54,6 +54,7 @@ class Coursera:
         class_home_page= f'https://www.coursera.org/learn/{class_name}/home/welcome'
 
         # check for rc-WeekCollectionNavigationItem to get weeks?
+        
         home_soup = self.get_html_soup(class_home_page, 5)
 
         weeks = self.parse_home_page(home_soup)
@@ -120,7 +121,6 @@ class Coursera:
 
     
     def get_html_soup(self, url, delay = 1):
-        print("Get: ", url)
         self.driver.get(url)
 
         time.sleep(delay)
