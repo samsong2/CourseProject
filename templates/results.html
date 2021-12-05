@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <hgroup class="mb20">
+            <h1>Search Results For <q><strong class="text-danger">{{query}}</strong></q></h1>						
+            <h2 class="lead"><strong class="text-danger">{{total_results}}</strong> Total results found</h2>								
+            <div class="col-md-4">
+                <a href='/'>
+                <button class="btn btn-lg btn-primary btn-effect btn-effect1 btn-effect1b"><span class="icon glyphicon glyphicon-home"></span>Home</button>
+                </a>
+            </div>
+            </hgroup>
+
+            <!-- For each result -->
+            <section class="col-xs-12 col-sm-6 col-md-12">
+                {% for n in search_results %}
+                <article class="search-result row">
+                    <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+                        <h3><a href={{n[0]}} title="">{{n[1]}}</a></h3>
+                        <p>{{n[2]}}</p>						
+                    </div>
+                    <span class="clearfix borda"></span>
+                </article>
+                {% endfor %}
+            </section>
+        </div>
+        <div class="container">
+            <ul class="pager">
+                <li>
+                    <form method=POST>
+                        <input type="hidden" name="page_no" value={{ page_no - 1}}>
+                        <input type="hidden" name="query" value="{{ query }}">
+                        <div class="input-group-btn">
+                        </div>
+                    </form> 
+                </li>
+                <li>
+                    <form method=POST>
+                        <input type="hidden" name="page_no" value={{page_no + 1}}>
+                        <input type="hidden" name="query" value="{{ query }}">
+                        <div class="input-group-btn">
+                        </div>
+                    </form> 
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
