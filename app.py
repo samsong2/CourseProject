@@ -23,4 +23,5 @@ def my_form_post():
     search_results = SearchTerm(query)
     total_results = len(search_results)
     page_no = 0
-    return render_template('results.html', search_results=search_results, num_results=len(), query=query, page_no=page_no, total_results=total_results)
+
+    return render_template('results.html', search_results=search_results, num_results=total_results, query=query, page_no=page_no, total_results=total_results)
