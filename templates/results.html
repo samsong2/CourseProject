@@ -22,8 +22,8 @@
                 {% for n in search_results %}
                 <article class="search-result row">
                     <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
-                        <h3><a href={{n[0]}} title="">{{n[1]}}</a></h3>
-                        <p>{{n[2]}}</p>						
+                        <h3><a href={{n["WebAddress"]}} title="">{{n["TitleOfPage"]}}</a></h3>
+                        <p>{{n["FieldContent"]}}</p>						
                     </div>
                     <span class="clearfix borda"></span>
                 </article>

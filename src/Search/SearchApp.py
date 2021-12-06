@@ -88,7 +88,7 @@ def SearchTerm(searchData):
 
 	with ix.searcher(weighting=w) as searcher:
 			#results = searcher.search(dataClean(searchData), terms=True)
-		results = searcher.search(query, terms=True, limit=10)
+		results = searcher.search(query, terms=True)
 		found_doc_num = results.scored_length()
 	#	run_time = results.runtime
 
