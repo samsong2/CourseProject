@@ -8,6 +8,7 @@ from whoosh.analysis import RegexTokenizer
 from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
 
+from datetime import datetime
 
 # building of the schema needs to be in a seperate script.
 def dataClean(fieldData):
@@ -105,6 +106,8 @@ for filename in os.listdir(data_dir):
 					#print("xx = ",xx)
 					if len(xx)>0:
 						startTime=xx[0]
+						startTime = datetime.strptime(startTime, "%M:%S")
+						startTime = startTime.strftime('%S')
 					else:
 						startTime=''
 					if len(xx)>1:
