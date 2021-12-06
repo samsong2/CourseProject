@@ -1,5 +1,5 @@
 lesson-1-2-text-access
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_Text_Access_CSRAFinal.d5a59930ce5111e4803811eb535622a4/full/540p/index.webm?Expires=1638748800&Signature=XiHNrCs74OiEJFZ5CLIvxciry36-U9GHgIuhXsL15HFCzQJt-ES-Im6y6gQd-Hie2HPF25~GcwzbhZX862E~39EFTb-pfuCSFphjsUGBxpZk22i6s-PaKlcpMOWv7HrVvPTm2iWdaDtwk378PEpdlQF2YuGbBaSiXZwo8nlut0s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_Text_Access_CSRAFinal.d5a59930ce5111e4803811eb535622a4/full/540p/index.webm?Expires=1638921600&Signature=MLPVxM8GDeGKR9TWeKxmAmmVLxzUvl4WoyOGO6N7ElNzYJXMMyvIpvbotEZR-lmVWtON6w1AUCugklqslh7IxGcwtZE0VUbXcauUxIN9mPj5fOJccQfKfea5GXC4IkEBpmu8m39qKA4gd03XbzwW29Y5I9p7ea4YyUvsKpyWBBQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] In this lecture, we're going to talk about the text access. 
 0:14 : In the previous lecture, we talked about the natural language content, analysis. 
 0:19 : We explained that the state of the are natural language processing techniques are still not good enough to process a lot of unrestricted text data in a robust manner. As a result, bag of words remains very popular in applications like a search engine. 

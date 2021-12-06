@@ -22,7 +22,7 @@
                 {% for n in search_results %}
                 <article class="search-result row">
                     <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
-                        <h3><a href={{n["WebAddress"]}} title="">{{n["TitleOfPage"]}}</a></h3>
+                        <h3><a href={{n["WebAddress"] + '#' + n["StartTime"] }} title="">{{n["TitleOfPage"]}}</a></h3>
                         <p>{{n["FieldContent"]}}</p>						
                     </div>
                     <span class="clearfix borda"></span>
