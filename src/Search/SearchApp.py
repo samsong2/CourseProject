@@ -64,6 +64,7 @@ schema = Schema(
     TitleOfPage=TEXT(stored=True, phrase=True, sortable=False),
     WebAddress=TEXT(stored=True, phrase=True, sortable=False),
     StartTime=TEXT(stored=True, phrase=True, sortable=False),
+	OriginalContent=TEXT(stored=True, phrase=True, sortable=False),
     FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
 )
 
@@ -73,7 +74,7 @@ queryString = "compute these vectors exactly"
 
 
 ix = open_dir(dirname)
-qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartTime', 'FieldContent'], ix.schema, group=qparser.OrGroup)
+qp = qparser.MultifieldParser(['TitleOfPage', 'DocNumber', 'WebAddress', 'StartTime', 'OriginalContent', 'FieldContent'], ix.schema, group=qparser.OrGroup)
 
 
 
@@ -88,7 +89,7 @@ def SearchTerm(searchData):
 
 	with ix.searcher(weighting=w) as searcher:
 			#results = searcher.search(dataClean(searchData), terms=True)
-		results = searcher.search(query, terms=True, limit=20)
+		results = searcher.search(query, terms=True, limit=10)
 		found_doc_num = results.scored_length()
 	#	run_time = results.runtime
 
