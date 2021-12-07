@@ -1,0 +1,7 @@
+{
+  "name": "Coursera Video Search",
+  "description": "A simple search page to query for relevant lecture videos",
+  "repository": "https://github.com/samsong2/CourseProject",
+  "keywords": ["CS410", "coursera", "search"],
+  "buildpacks": [ { "url": "heroku/python" } ]
+}

@@ -1,5 +1,5 @@
 lesson-1-1-natural-language-content-analysis
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_1.1_NLP_CSRA_Final.557a0390ce5111e4b1ebf167db05d98e/full/540p/index.webm?Expires=1638748800&Signature=eTHUFPfwTpIRuCua6fO2a~CPKsXmd6PdNHf6RHdwH5R3tBoO8QSurQ8J~LgQ8xquGQvEQ5y0sI0ooZcGzhph7zJD5VMrqDjDBjPdRsDu2HotI6gxdFGdSXdv7zS~GzEkyE2QEq7oqhucFpD2dJiIC62pjDy4D87SewFTN56yzL8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_1.1_NLP_CSRA_Final.557a0390ce5111e4b1ebf167db05d98e/full/540p/index.webm?Expires=1638921600&Signature=Fkhft7q5gbvURhiFxUv~OvTU2udhEoUG-4HCg~cXPYM9y5gw08gmbvLVfXfBHPTqlQAJEAgom0keanDaERxuGT6wU5FrbUddDpRF7pLnEf7Q8L9WQ404-XYz2~AlzykdRPtvyZDykD4BYwkIvFZHu4f5Kacc8n7BULh0X-mYQwU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:09 : &gt;&gt; This lecture is about Natural Language of Content Analysis. As you see from this picture, this is really the first step to process any text data. Text data are in natural languages. So computers have to understand natural languages to some extent, in order to make use of the data. So that's the topic of this lecture. We're going to cover three things. First, what is natural language processing, which is the main technique for processing natural language to obtain understanding. 
 0:43 : The second is the state of the art of NLP which stands for natural language processing. 

@@ -8,7 +8,6 @@ from whoosh.analysis import RegexTokenizer
 from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
 
-
 # building of the schema needs to be in a seperate script.
 def dataClean(fieldData):
 #lowercase, stop words, extra word removal,stemming
@@ -62,7 +61,8 @@ schema = Schema(
     TitleOfPage=TEXT(stored=True, phrase=True, sortable=False),
     WebAddress=TEXT(stored=True, phrase=True, sortable=False),
     StartTime=TEXT(stored=True, phrase=True, sortable=False),
-    FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True)
+	OriginalContent=TEXT(stored=True, phrase=True, sortable=False),
+    FieldContent=NGRAMWORDS(minsize=2, maxsize=10,stored=True, field_boost=1.0, tokenizer=None, at='start', queryor=True, sortable=True),
 )
 
 
@@ -72,8 +72,6 @@ ix = create_in(dirname, schema)
 writer = ix.writer()
 
 
-list1=[]
-list2=[] # contains all the data?
 documentNumber = -1
 title_of_page=''
 webAddress=''
@@ -112,28 +110,20 @@ for filename in os.listdir(data_dir):
 						fieldContent=xx[1]
 					else:
 						fieldContent=''
-					#list1.append(startTime)
-					#list1.append(fieldContent)
-		
-					#print("else 2nd part list1 = ",list1)
-					#print("before documentNumber = ",documentNumber)
+
 					documentNumber += 1
 					#print("after documentNumber = ",documentNumber)
 					#list2.append(list1)
 					fieldContentCleaned =dataClean(fieldContent)
-					list1.append(title_of_page)
-					list1.append(webAddress)
-					list1.append(startTime)
-					list1.append(fieldContent)
-					list2.append(list1)
 					#print("All fields : title_of_page = ",title_of_page," Doc-num = ",documentNumber,", webAddress = ", webAddress, ", st-time = ",startTime, ", fieldContent = ",fieldContentCleaned)
 					#print("list2 = ",list2)
 	#   			add documentNumber,webAddress, startTime, fieldContentCleaned to whoosh
 					try:
 						#print("writer.add_document working....")
-						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=webAddress, StartTime=startTime, FieldContent=fieldContentCleaned,)
+						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=webAddress, StartTime=startTime,OriginalContent=fieldContent, FieldContent=fieldContentCleaned)
+
 					except:
 						#print("writer.add_document did not work....")
-						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=u'None', StartTime=startTime, FieldContent=u'None',)
+						writer.add_document(TitleOfPage=title_of_page, DocNumber=documentNumber, WebAddress=u'None', StartTime=startTime, OriginalContent=fieldContent, FieldContent=u'None')
 
 writer.commit()

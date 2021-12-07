@@ -1,5 +1,5 @@
 10-8-text-categorization-methods
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-29_CSRA_Final.d45f217016c911e58af3e972f5afa18e/full/540p/index.webm?Expires=1638748800&Signature=hqIAO9d0O1WOUiUDNI2vtSrx0XJmOVyetrp6nUzbdQQ~UB57BeDiNhcmsMpZGVfx2ujw6w0tlNOvHi55UM6hKgvSutB9HwuVDteOTMuggSc4kfZuUssa5~6snUmugoiHx7FZpBmKuiSuyfjvACBra0Vku9rNwBCQ2IzmmZFEmN4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-29_CSRA_Final.d45f217016c911e58af3e972f5afa18e/full/540p/index.webm?Expires=1638921600&Signature=J3xDrZ2ggEiGe9T1UiV8kHMLnAlwf~u6fMmAoUkys9npZplmiKgBXtp0HAhHG2irffOOwdEmOn1Lo5wPteERAB4iLLcPJwStCvsEZhYOmvS16gM-CZBg8aSlUvcggFHGz~F9ZXHos~-ky1DWD3IwYp6tT3imZgF56prT9Fs4okw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:06 : This lecture is about the methods for text categorization. 
 0:12 : So in this lecture we're going to discuss how to do text for categorization. 
 0:19 : First, there're many methods for text categorization. 

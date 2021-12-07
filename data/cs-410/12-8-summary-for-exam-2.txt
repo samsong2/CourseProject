@@ -1,5 +1,5 @@
 12-8-summary-for-exam-2
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-45_CSRA_Final.6aa368401c5511e58aa83d6ddfa50e61/full/540p/index.webm?Expires=1638748800&Signature=P8t9SSKLa8v6DDNyJ-tZSrz8PxwxrC0zWFLucwqtjorSjxcBJrgpLlixr5G7emsjEDwtowSl26bAHNFU1O7hB0tHNxQ6ycgHfq8WWP52J7hFOmx7J9NyGsWxPjQorxu28iHGBVmPCMXzRv-Zo3p4DtT5S5GyZc6qSKdeJcDuH-g_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-45_CSRA_Final.6aa368401c5511e58aa83d6ddfa50e61/full/540p/index.webm?Expires=1638921600&Signature=auoqFEoAjndThawmTLGM1dooebvnU2wI9I2nY-tyG2FB447GTVJNSBlRwH0N2dDiEYOLFrD-jMqGUixADJUQBoKHE9yM1NLp2kk3QRlhIPhdmgmcy8UXqzwhO34zhuVr0yiI82H6SiYtAMB4oIENgo3aUazeDCwwtTKPkogzkAY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:06 : This lecture is a summary of this whole course. 
 0:10 : First, let's revisit the topics that we covered in this course. In the beginning, we talked about the natural language processing and how it can enrich text representation. We then talked about how to mine knowledge about the language, natural language used to express the, what's observing the world in text and data. 
 0:34 : In particular, we talked about how to mine word associations. We then talked about how to analyze topics in text. How to discover topics and analyze them. 

@@ -1,5 +1,5 @@
 lesson-5-7-link-analysis-part-2
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Link_Analysis_Part_2.110f4a30dd7e11e480324d5fe2e0f087/full/540p/index.webm?Expires=1638748800&Signature=EyqUc3pQgxmkQRgy6NHZWPZIMoaH43p9aYJzRhNp8W2ksbjpf39svtRO~822Vv9vD6zgPJBnwP8Ur0C-I3-2JGcUD0-fsNAv2T8Yv7LCK5NI0nDP15fELgsek6eQO3j5bdZ~tAx~0bLPyXDEnMpdVbyahL5SbaB1zuHrMb2kMeo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Link_Analysis_Part_2.110f4a30dd7e11e480324d5fe2e0f087/full/540p/index.webm?Expires=1638921600&Signature=A8TmG1vkvbw-W2LbzPW1Z4Vz92tbZgLMmbikeLNKj3~Bp9NNeWn3ZfntNDleYW-DOxTuAUAye22z351gpFUUip~Z1RuLiwXuRPSfHOtk9Hs8Rwc-IEKBXGjnarNkW4B-3FPETCGDBl3v1tUbk8wqUpRs1DBvqqOyNQnSAWzInpM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:09 : So let's take a look at this in detail. So in this random surfing model at any page would assume random surfer would choose the next page to visit. So this is a small graph here. That's of course, over simplification of the complicated web. But let's say there are four documents here, d1, d2, d3 and d4. And let's assume that a random surfer or random walker can be any of these pages. And then the random surfer could decide to, just randomly jumping to any page or follow a link and then visit the next page. 
 0:56 : So if the random surfer is at d1, 
