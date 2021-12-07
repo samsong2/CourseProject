@@ -28,7 +28,3 @@ to Heroku. This will compile and run the app (it may take several minutes
 to build the first time)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Build Instructions
-
-### [Coursers Webscraper]()
