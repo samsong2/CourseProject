@@ -1,8 +1,26 @@
 # Coursera Video Segment Search
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+## Team: Mission Lucy
+## Team Members
+Sam Song
+Uttam Roy
+Kavithaa Suresh Kumar
+Azim Keshwani
+## Project Overview
+The goal of our project is to helps users to easily access shorter segments 
+of the lecture video that are relevant to the user query. 
+Generally, the user enters a query and the search engine searches the CS410 
+lecture videos to output a ranked list of relevant clips from the lectures. 
 
+## Presentation
 
-Usage instructions
+## Demo
+You can check try out the search here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
 
+## Instructions for deployment
+You can click the image below to deploy the current code in this repository
+to Heroku. This will compile and run the app (it may take several minutes
+to build the first time)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## 
