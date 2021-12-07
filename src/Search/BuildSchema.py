@@ -8,8 +8,6 @@ from whoosh.analysis import RegexTokenizer
 from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
 
-from datetime import datetime
-
 # building of the schema needs to be in a seperate script.
 def dataClean(fieldData):
 #lowercase, stop words, extra word removal,stemming
@@ -106,19 +104,13 @@ for filename in os.listdir(data_dir):
 					#print("xx = ",xx)
 					if len(xx)>0:
 						startTime=xx[0]
-						startTime = datetime.strptime(startTime, "%M:%S")
-						startTime = startTime.strftime('%S')
 					else:
 						startTime=''
 					if len(xx)>1:
 						fieldContent=xx[1]
 					else:
 						fieldContent=''
-					#list1.append(startTime)
-					#list1.append(fieldContent)
-		
-					#print("else 2nd part list1 = ",list1)
-					#print("before documentNumber = ",documentNumber)
+
 					documentNumber += 1
 					#print("after documentNumber = ",documentNumber)
 					#list2.append(list1)

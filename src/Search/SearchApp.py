@@ -8,6 +8,8 @@ from whoosh.analysis import RegexTokenizer
 from whoosh.analysis import StopFilter
 from whoosh.lang.porter import stem
 
+import time
+from datetime import datetime, timedelta
 
 
 def dataClean(fieldData):
@@ -101,29 +103,16 @@ def SearchTerm(searchData):
 			for hit in results:
 				i+=1
 
-				title_page = hit['TitleOfPage']
-				doc_num = hit['DocNumber']
-				web_address = hit['WebAddress']
-				st_time = hit['StartTime']
-				fld_content = hit['FieldContent']
-				score = hit.score
-
+				hit = dict(hit)
 				#print("\n\n")
 				#print(title_page,doc_num,web_address,st_time,fld_content, score, '\n')
+				
+				st_time = time.strptime(hit['StartTime'], "%M:%S")
+				st_time = str(int(timedelta(minutes=st_time.tm_min, seconds= st_time.tm_sec).total_seconds()))
+				hit['StartTime'] = st_time
 
 				# should ideally be saving data from hit instead of list
-				list3.append(dict(hit))
-				#list3.append(list2[doc_num])
-				#print("docnum = ",doc_num," list2 = ",list2[doc_num])
-				#if i>=10:
-					#break
+				list3.append(hit)
 
-	#print("documentNumber = ",documentNumber," list2.size = ",len(list2))
-	#print("Search end.....\n\n")
-	#print("list3 = ",list3)
 	return list3
 
-#searchResult=SearchTerm(queryString)
-#print("Search result = ",searchResult)
-#print("size = ",len(searchResult))
-#print("output : max 10 records ,  list of list -> [  [Title-page, web-address, star-time, content], [], []   ]")
