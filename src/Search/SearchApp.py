@@ -110,7 +110,7 @@ def SearchTerm(searchData):
 				# change time to seconds for formating
 				st_time = time.strptime(hit['StartTime'], "%M:%S")
 				st_time = str(int(timedelta(minutes=st_time.tm_min, seconds= st_time.tm_sec).total_seconds()))
-				hit['st_time_vido'] = st_time
+				hit['st_time_video'] = st_time
 
 				# should ideally be saving data from hit instead of list
 				list3.append(hit)
