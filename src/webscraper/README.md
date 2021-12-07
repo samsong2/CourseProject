@@ -8,16 +8,19 @@ This webscraper will only work for classes that you are/have been enrolled in.
 ## Instructions
 
 ### 1. install Selenium and Beautiful Soup  
-'''python
+```bash
 
-'''
+pip install selenium
+pip install bs4
+```
+
 
 
 ### 2. Download Chromedriver
 Download the chromedriver for your version of Chrome.
 Then put it in the webscraper directory.
 
-You can go to 
+Find your chromedriver here https://chromedriver.chromium.org/downloads
 
 ### 3. Get CAUTH cookie value
 To get your CAUTH cookie login to coursera.org.
