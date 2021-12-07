@@ -16,8 +16,10 @@ def main():
     
     cauth = get_cauth()
 
+    # specify the location to download the lecture data
     session = Coursera(cauth, "../../data")
 
+    # specify the class to download
     session.download_class("cs-410")
 
 
