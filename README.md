@@ -6,6 +6,7 @@ Sam Song
 Uttam Roy
 Kavithaa Suresh Kumar
 Azim Keshwani
+
 ## Project Overview
 The goal of our project is to helps users to easily access shorter segments 
 of the lecture video that are relevant to the user query. 
@@ -15,7 +16,7 @@ lecture videos to output a ranked list of relevant clips from the lectures.
 ## Presentation
 
 ## Demo
-You can check try out the search here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
+You can check try it out for youself here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
 
 ## Instructions for deployment
 You can click the image below to deploy the current code in this repository
