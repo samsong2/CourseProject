@@ -1,5 +1,5 @@
 lesson-4-6-smoothing-methods-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_14_3.5_smoothing_p1.87482510d95411e4924fd33de0d32b50/full/540p/index.webm?Expires=1638921600&Signature=i2xAB7utSOCEMoiu4BtadfIOA6xatlhy~aaHdy0JZcK82pD81iiLwskAgv6JwzH-xmywqVrlH7MkL0ldJLF3X3WNEwDCf9TRVMUoR9fJ7mLnEP5mS~2i5Xh0jJivJxhql9bOxLht06x7XmuR1DKyAEwQmKNh4HJptHQJxJQdBNo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_14_3.5_smoothing_p1.87482510d95411e4924fd33de0d32b50/full/540p/index.webm?Expires=1639094400&Signature=YDE92G5PQtcrLCMi2~L4XE-MUqHxvFAiK6p5tMVI3Jwalo-zO71Lltq1YsFhJ5DjlhHsJCGivirm2GALEij4Jpl-dyZhUz7AZj4VZfnXgz4CkOdjjrcbLxvyowXjn1s6ywvHn9aaLmUxMF9yrcDDhfpl6E1S~YJ0gYb0CEUU0oE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:07 : This lecture is about the specific smoothing methods for language models used in probabilistic retrieval model. 
 0:16 : In this lecture, we will continue the discussion of language models for information retrieval, particularly the query likelihood retrieval method. And we're going to talk about specifically the smoothing methods used for such a retrieval function. 

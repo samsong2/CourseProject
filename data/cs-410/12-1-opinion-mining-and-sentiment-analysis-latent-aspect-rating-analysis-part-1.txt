@@ -1,5 +1,5 @@
 12-1-opinion-mining-and-sentiment-analysis-latent-aspect-rating-analysis-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-38_CSRA_Final.74fc33301c1e11e59b98790adb78363a/full/540p/index.webm?Expires=1638921600&Signature=By~jtv7aygab2gNZD2W45uBxIHyy~64nsDsQ7N7jBMvzFijXQGetK1OcqtoJQgo8ePiCQ6iJx3YJB8R-3-vzVp2i64MbauNWgUPfx2BXjQCzySNLBRd~1H4Ksn-DzqhXnqlOv8VXMjXttExmyNh8M0XNrag3x148ujfAf9gsJBI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-38_CSRA_Final.74fc33301c1e11e59b98790adb78363a/full/540p/index.webm?Expires=1639094400&Signature=YUKIvWf9h0UvTdjvTwXvFz4k8Ren1qUiANAGEnff6oob69cAcX1qzMkhofKMOJYgCVqAdRblWcYVFIsAdW4WvG63BzcJTIYr1QVQBTs4os9PFtUrfThyzDQSxya-6v7FoC4~rTIK45EPoxS16etf3cQ3b9g8K4on9Rq30oskbFw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:01 : [MUSIC] This lecture is about the Latent Aspect Rating Analysis for Opinion Mining and Sentiment Analysis. 
 0:14 : In this lecture, we're going to continue discussing Opinion Mining and Sentiment Analysis. 
 0:19 : In particular, we're going to introduce Latent Aspect Rating Analysis which allows us to perform detailed analysis of reviews with overall ratings. 

@@ -1,5 +1,5 @@
 lesson-5-3-feedback-in-text-retrieval-feedback-in-lm
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_17_3.8_Feedback_LM_v2.c1bf2ec0d98411e4862a7bb5c2304348/full/540p/index.webm?Expires=1638921600&Signature=ObOyw4SyRb0bAcMH-18HESko8ewnIeBHoRDuezPdmjR3tq~0VhDuVUEJNJwEyCNZFolPxnCUJiFPqUtwP5CR~IOeJcyJJG6bhUo-SJRvtZuaxpGJzMruNG1qXTlTeRZUs9W60QNbnqWNB91l0CLpwu2RKhzx2ekeLbTPQU3pTfg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_17_3.8_Feedback_LM_v2.c1bf2ec0d98411e4862a7bb5c2304348/full/540p/index.webm?Expires=1639094400&Signature=E-zAimeMNttp-UfI9AbzB6bkD0Kk4dbdg~9a~EhPh-1Gz2v2yBdx9VsZ5ehvaU1WE72BoRkYmHaUcIC9zTxTmecjrECjdwTugUuv9hpZo~hztGKx8sBBfeG-ZkQ9bnfj9ztLyI2UrFIAp6zNhBu~j9HTWmtF5V-P9MRijfh7qxw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about the feedback in the language modeling approach. 
 0:12 : In this lecture, we will continue the discussion of feedback in text retrieval. In particular, we're going to talk about the feedback in language modeling approaches. 
 0:23 : So we derive the query likelihood ranking function by making various assumptions. 

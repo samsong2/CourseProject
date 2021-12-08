@@ -1,5 +1,5 @@
 8-5-topic-mining-and-analysis-motivation-and-task-definition
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_12_CSRA_Final.9bfb2f4010c511e5a72b6f70599bff35/full/540p/index.webm?Expires=1638921600&Signature=TMSxgyNJciI3OV9AufQSK2bgZgZtbsLQdZgaFzL7Em-XWEULl~E-7ubaYBSIuWOdE0-wOKW4E05jKSBj47UwyfDk34i9djeWEe0V4bXbrW72vEeY0r9QdWwuDWDEv7frqeKHRerpdPQyAh6joQ4w8AGMLJBM~jCmv7B7BCaT~pg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_12_CSRA_Final.9bfb2f4010c511e5a72b6f70599bff35/full/540p/index.webm?Expires=1639094400&Signature=ff-C9vYGM5WYbWeZtJ0tYrT4nGiYlOW8kjwAW01H3DMO-ZgCDplEjfbPyPbDjBf1h80w4Tu2YEHBDBrRUc~tdkQ3mhmxEPhBnNT4fdS7oZJYMt3D-b~Jmf2g3DHm0EKcQltrV5-hVjPKOQN2lal6MPZMji4LkKOIFO8ZcmaRcak_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] &gt;&gt; This lecture is about topic mining and analysis. We're going to talk about its motivation and task definition. 
 0:17 : In this lecture we're going to talk about different kind of mining task. 
 0:23 : As you see on this road map, we have just covered mining knowledge about language, namely discovery of word associations such as paradigmatic and relations and syntagmatic relations. 

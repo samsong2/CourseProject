@@ -3,7 +3,7 @@
 
 ## Instructions
 
-### 1. install Whoosh  
+### 1. Install Whoosh  
 ```bash
 pip install whoosh
 ```

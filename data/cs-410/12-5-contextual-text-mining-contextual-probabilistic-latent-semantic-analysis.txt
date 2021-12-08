@@ -1,5 +1,5 @@
 12-5-contextual-text-mining-contextual-probabilistic-latent-semantic-analysis
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-42_CSRA_Final.a01267401c2011e59288c390a02d3f80/full/540p/index.webm?Expires=1638921600&Signature=I2It3UGpOa3D5T~WMwkpWtGYaRz0e8PSzjtLimY-Gl8VXWv27R1ZJp6Ta7lTV0FmMxmpVCMbSHnOglAEm~Hlh7dJ~wX0irFbUZU0hOk2mhcJV05TAKLJIrAWgyIge7gsClujb7DiLJFGpGgiaEvd6fLBSzfmk7UlAgu8zxksWvk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-42_CSRA_Final.a01267401c2011e59288c390a02d3f80/full/540p/index.webm?Expires=1639094400&Signature=NAD9uesZo2henk8pXRAXpkG-DniDNUz7DVChAh82Sp38V2~t~fwhHr9dFxhVIlg3BrtduDq4CQRm4d418XxmbGldmKC-baVV751B6h97v4Yq84phYbL8o0g8~18MoBv-SNSLOSaorB~tiQkelI~LIm4zq5W5reAGa-gT65UiFxY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] This lecture is about a specific technique for Contextual Text Mining called Contextual Probabilistic Latent Semantic Analysis. 
 0:19 : In this lecture, we're going to continue discussing Contextual Text Mining. And we're going to introduce Contextual Probablitistic Latent Semantic Analysis as exchanging of POS for doing contextual text mining. 
 0:34 : Recall that in contextual text mining we hope to analyze topics in text, in consideration of the context so that we can associate the topics with a property of the context were interesting. 

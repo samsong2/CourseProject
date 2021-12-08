@@ -1,5 +1,5 @@
 lesson-4-7-smoothing-methods-part-2
-https://d18ky98rnyall9.cloudfront.net/U3JR4_qKEeWWlhIKG3SJzQ.processed/full/540p/index.webm?Expires=1638921600&Signature=KfemYuXlMOJcW293KYHCsMWOmnof5OJnQP05Bf0clD7rKQ0wpcorle0zYPEhhHzFGDdaJiG0Tcn7J-Nw91Ta0Jcq4ADbcWseq5s4yEGHBreDQyYXfdmuMtvck8bFjygvmM4pO37~gdNe5JPQk4bUZu83e-eaWjMsnMxstq0WXI0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/U3JR4_qKEeWWlhIKG3SJzQ.processed/full/540p/index.webm?Expires=1639094400&Signature=AxX3dQN2SMetcl-A6legg4S6y3schyvYh4CV8-ql~hGj7ORse~Xxny4ZrcswBMI8-RkcRXhvsJgHi5epi4C3J2xMVwuBxSyatdwVsb1O0lRsJea7SYuaa~s-XK4jO7cJNPv7RfWnv-SY5fskyRVGNgVVSg4bB04LpmZorV6POoM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:13 : So let's plug in these model masses into the ranking function to see what we will get, okay? This is a general smoothing. So a general ranking function for smoothing with subtraction and you have seen this before. 
 0:28 : And now we have a very specific smoothing method, the JM smoothing method. 

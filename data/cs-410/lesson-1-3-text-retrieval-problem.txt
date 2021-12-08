@@ -1,5 +1,5 @@
 lesson-1-3-text-retrieval-problem
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Text_Retrieval_Problems_CSRA_Final.cc222f30ce5211e4a769493d4d0ab097/full/540p/index.webm?Expires=1638921600&Signature=BlEyMJheuOCSMO1LLfiqHWrvq0yCHtLEB4IcTlAiZ~g~4cqS0MDYxichoJu1a8rneb3OOO~pJCkWplAR2dR3dNtpLnhNncEReYUJ27Rqibfqy6OmA7r3pyCZPjCNzsH1e6iV1ZQ7IbakUfAUWxfGTosVLL1YJsOXJ-g29xgdmo4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_Text_Retrieval_Problems_CSRA_Final.cc222f30ce5211e4a769493d4d0ab097/full/540p/index.webm?Expires=1639094400&Signature=SxR21n9Z4S8bJaLfYn5iiQfRh~lsNeaQ7tlt7NjEbSQ4CUoXki72RfryGWJ76b1HItE7jsfbUanM-3Xomin2FEDTcfmj6AaLqeLjwlY1yGpCu1-T4U6NVohBccbHQtJvtLD74pQT00ZYvQZi~yJ1iYckFL7c~TtlWhLvP0es0YU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] This lecture is about the text retrieval problem. 
 0:12 : This picture shows our overall plan for lectures. 
 0:16 : In the last lecture, we talked about the high level strategies for text access. We talked about push versus pull. 

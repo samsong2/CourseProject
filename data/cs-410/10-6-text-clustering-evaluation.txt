@@ -1,5 +1,5 @@
 10-6-text-clustering-evaluation
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-27_CSRA_Final.a1f0fea016b711e5b4f2b9c5b972a86d/full/540p/index.webm?Expires=1638921600&Signature=euQ2LA9LABsPjmSYexTuY0P1qCwnA61aFvBq1tYiG7t3RYG-DXhhGvjZRv8kDMat~0u7IndtopzsAgNg-nxAG2b9d-PwZzDLAlivTtrVKS53a7Nc9awif9HNEA7Cy-BxA9tBL4Hx6BVlhxnH5KX0BcSM6QEP2r~nrV5t5H3AMq0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-27_CSRA_Final.a1f0fea016b711e5b4f2b9c5b972a86d/full/540p/index.webm?Expires=1639094400&Signature=GMC2paNZzZjGiA04PqbHeCVKp3J73fcg3PU5bjc0QJywb7TXET0u3eqxWZlx3U2XT3X1jXKdBmlT7IJzE4T7mzSipXuIMSWH2gaYsJg4aay4MtU~vzyte-pShxcqPnRB0Po3xm1Lx5NOiV0xYAUoMIF6AmRYHdzhbyoyveq~yfE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] This lecture is about evaluation of text clustering. 
 0:12 : So far we have talked about multiple ways of doing text clustering but how do we know which method works the best? 
 0:22 : So this has to do with evaluation. Now to talk about evaluation one must go back to the clustering bias that we introduced at the beginning. 
