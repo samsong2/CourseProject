@@ -20,8 +20,13 @@ https://uofi.box.com/s/6lb3ayuvgb1ytcreukt77shivhk48jy2
 
 You can check try it out for youself here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
 
-## Instructions for deployment
+## Documentation and Usage
 
+### Deploying from scratch 
+Follow the instructions from our Final Report here:  
+
+
+### Quick Deploy
 You can click the image below to deploy the current code in this repository
 to Heroku. This will compile and run the app (it may take several minutes
 to build the first time)
