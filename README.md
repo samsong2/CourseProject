@@ -15,7 +15,9 @@ Generally, the user enters a query and the search engine searches the CS410
 lecture videos to output a ranked list of relevant clips from the lectures. 
 
 ## Presentation
-https://uofi.box.com/s/6lb3ayuvgb1ytcreukt77shivhk48jy2 
+
+https://mediaspace.illinois.edu/media/t/1_1lolt4vf
+
 ## Demo
 
 You can check try it out for youself here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
