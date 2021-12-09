@@ -24,7 +24,7 @@ You can check try it out for youself here [Coursera Video Search](https://course
 
 ### Deploying from scratch 
 Follow the instructions from our Final Report here:  
-
+https://github.com/samsong2/CourseProject/blob/main/CS%20410%20Final%20Report.pdf
 
 ### Quick Deploy
 You can click the image below to deploy the current code in this repository
