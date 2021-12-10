@@ -1,5 +1,5 @@
 lesson-3-3-evaluation-of-tr-systems-evaluating-ranked-lists-part-1
-https://d18ky98rnyall9.cloudfront.net/Uz7l7vqKEeWkzAra0Lqyxw.processed/full/540p/index.webm?Expires=1639094400&Signature=ZprZO3Jygg15KI~2mrR4BgHgIR-W2c41W~qgEmQRmgHg8-qgW-q1d9fYgWPq1hpOB5K2dZBW~8b~LVyC0~-P0N~LKJ~Ikv8~viR2rUwb4qZ0EzOX-OyOSzr4f8G~zQtkNfP2ZZU3APtveXBfzuxtMZE-BahcBhS0rCyltpaGNSA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/Uz7l7vqKEeWkzAra0Lqyxw.processed/full/540p/index.webm?Expires=1639267200&Signature=B4LU9EHsqI-Jz8o~SbyRpohBENeku0ZIeup18ZgZWAvN1s~87SxQVTzidr6Sd5oElhvq-grxsRE9uGviqNBlQFn55XApUFtAONeDlnBC~MHOPSy2hljoQW~thpLdPTJOVtc9fnMSPKBuXlbrFKjJFyMhqVitF7PO5b2M1GFCJ3U_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:07 : This lecture is about, how we can evaluate a ranked list? 
 0:13 : In this lecture, we will continue the discussion of evaluation. In particular, we are going to look at, how we can evaluate a ranked list of results. 

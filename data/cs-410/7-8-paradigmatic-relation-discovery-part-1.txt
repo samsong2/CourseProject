@@ -1,5 +1,5 @@
 7-8-paradigmatic-relation-discovery-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-7_part_1.108185000b2411e583ca071717730a50/full/540p/index.webm?Expires=1639094400&Signature=KC8mvuCOexA8rdXE78u9QuVwGhbcbqOZgLLsqLfxp-qRZPpS8ocX6tulgEf5Vy-ycf1479x40YRxx1cQMs-H4llV8FIclMWTstGG0DU8P1UkXFKltkHjExMpgzJROTXHFulGGWnF~nZoTGqio6LJAhiV7G36lm~JZ4UqeWw3dNM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-7_part_1.108185000b2411e583ca071717730a50/full/540p/index.webm?Expires=1639267200&Signature=IcWGf~dbpbFp5uN2t5PGpR7kQeucZf4CNgIj9igDIIV1NncgPgGWVKEPU9996J9tcstqBIcVevhbaw21qWZOAbzqcgYDxC~JsPp~XI3cQXvID6pi2Npwz1ipMN6XDUPt7PSIh6h8NNSpVGGQd5XglEAeXsOU7aeAVI90FNIH4g0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about the Paradigmatics Relation Discovery. In this lecture we are going to talk about how to discover a particular kind of word association called a paradigmatical relation. 
 0:25 : By definition, two words are paradigmatically related if they share a similar context. Namely, they occur in similar positions in text. So naturally our idea of discovering such a relation is to look at the context of each word and then try to compute the similarity of those contexts. 
 0:50 : So here is an example of context of a word, cat. 

@@ -1,5 +1,5 @@
 lesson-6-5-recommender-systems-content-based-filtering-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_31_Recommender_Systyems_contentBasedFiltering_part1_CSRA_Final.41592d60de5411e49ff32711c51d6f19/full/540p/index.webm?Expires=1639094400&Signature=JiO8mBdWo-7agY5zZEB9L5tcsTMCSvIpBX2ymbIERklkR5Gj~ylUTR~wnb2wb1larR92fWWlgEtbatBjzJtCBW9gOwzTplqN4Y6HWJ6AyvQdpageIp7FX5tQZZOU55UNmqW7p2xLmGMj5ngsplkBM2P~RIn~cvgKLWuA-dQtxPA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_31_Recommender_Systyems_contentBasedFiltering_part1_CSRA_Final.41592d60de5411e49ff32711c51d6f19/full/540p/index.webm?Expires=1639267200&Signature=hU1RJGBFZFMnb4urQea2x8WdBhFe8DNUn8iJWlrz8sogqvlCNWlYWnyGYH2pc5~OiK4eiLbWK9TgYwKKV9hCfOo0jZLz5EqKSUvU5zcJiSpqxXyeWNl8ImIEJB8EK2a0SrLCTLauLZyCEaYfYZvt6vkrYfthm5Ynw2lVNzXefIw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] This lecture is about the Recommender Systems. 
 0:12 : So far we have talked about a lot of aspects of search engines. 
 0:19 : We have talked about the problem of search and ranking problem, different methods for ranking, implementation of search engine and how to evaluate a search engine, etc. 

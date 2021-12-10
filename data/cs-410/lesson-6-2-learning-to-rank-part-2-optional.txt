@@ -1,5 +1,5 @@
 lesson-6-2-learning-to-rank-part-2-optional
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_29_LearningtoRank_Part_2_CSRA_Final.4e83e6c0de4e11e496903ff00413f5e1/full/540p/index.webm?Expires=1639094400&Signature=NtRZI3KemnLMlueZwNIt3zh-joAnhdcWAPNHM~gIp2jUcn0JGf6LwVK9nglJc9Sk5bTvTN-5UyU81FpoqTESRSFI006ArGNso2w1NY~tdSqe~HzLMd0mbGApY1OG1wnPZHtUA7zhlfJCK~Eu2JafNszVeL9KnwvJ4VPZE00lbtk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_29_LearningtoRank_Part_2_CSRA_Final.4e83e6c0de4e11e496903ff00413f5e1/full/540p/index.webm?Expires=1639267200&Signature=TWWe~3iu~WXx1kLFaA0LfufqyjGW73eFfydHsBCP57J~zk~xc9IDTbpY2lWhGKpQPQGqKfY05aRE909Ay4q2zQ1QU813j4cnPGCQjjKIEpLDAcbfXA07x~Jlk5g439dPTHuWPjXPx8mKRcmuH7-uElPMbhUMRmmAKg9s-eyXxQk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:06 : So now let's take a look at the specific method that's based on regression. Now, this is one of the many different methods, and in fact, it's one of the simplest methods. And I choose this to explain the idea because it's simple. 
 0:26 : So in this approach, we simply assume that the relevance of document with respect to a query is related to a linear combination of all the features. Here I used Xi to denote the feature. So Xi of Q and D is a feature. And we can have as many features as we would like. 

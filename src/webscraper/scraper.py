@@ -2,15 +2,17 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 from api import Coursera
-
+import os
 
 def get_cauth():
+    #cookie_path = os.path.abspath(__file__).join("cauth_cookie.txt")
+
     with open("cauth_cookie.txt","r") as f:
         auth_cookie = f.read()
 
     return auth_cookie
 
-
+ 
 
 def main():
     

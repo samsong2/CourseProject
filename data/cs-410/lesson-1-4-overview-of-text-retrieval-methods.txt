@@ -1,5 +1,5 @@
 lesson-1-4-overview-of-text-retrieval-methods
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_OverView_TR_Methods_CSRA_Final.fcbb4910ce5211e48cdde59767a3593f/full/540p/index.webm?Expires=1639094400&Signature=bi-cb-PHNc0VKcV6xTnuKoKwxINZ6u~rO2VmQpZBfOrf9V-PnpUSXF~Zof5WC-4QMptNBmCH5~Tri6bfghqJfwgjCY13Y9YN0zxxFl03-S-Ww1mnP67azj03SLCGABZI8aw9PnGTty3VU4pT3JXFCVq~QlKfG2EAkaFRgh~x1Jg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_OverView_TR_Methods_CSRA_Final.fcbb4910ce5211e48cdde59767a3593f/full/540p/index.webm?Expires=1639267200&Signature=UFCSz8VZXH7b4cokXcHU028JIn~5iK6Dz1kGjIsEGSFWVlE6GwVRBlHtZvCyy5lKWheEwwS8lnbnRapai8cTKqcWRDTyPGY2HuYep9LtwaGfS1inhZryY7QewdZ2T~z-84BZYANY4u2fjw4O9bEsidx4IAZYAkY~Lf6IrU5nQM8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is a overview of text retrieval methods. 
 0:13 : In the previous lecture, we introduced the problem of text retrieval. We explained that the main problem is the design of ranking function to rank documents for a query. In this lecture, we will give an overview of different ways of designing this ranking function. 
 0:33 : So the problem is the following. We have a query that has a sequence of words and the document that's also a sequence of words. And we hope to define a function f 

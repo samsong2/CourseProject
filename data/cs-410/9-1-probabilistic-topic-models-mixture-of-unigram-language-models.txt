@@ -1,5 +1,5 @@
 9-1-probabilistic-topic-models-mixture-of-unigram-language-models
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_17_CSRA_Final.dc4e909010cb11e5bd03cdc5c2786bf0/full/540p/index.webm?Expires=1639094400&Signature=EWGBae60-igBCcCCRWYbLBYurHORYC0iyuJIGrkKrD0gQJPKtUifb0NeQ0Ir9ULq3TNvCFFYC~fIKqR5CL3t8JUlTX0CCoCRRkADY-y8AGwVV9wrwkXT9AMDmy6ozeTCHLiouPl~6eOv0TdXbLsXyrvUkQrAqeoHK9JSb81JC-s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_17_CSRA_Final.dc4e909010cb11e5bd03cdc5c2786bf0/full/540p/index.webm?Expires=1639267200&Signature=W~~9cJOhJJASdjmTsQvbQkcACnQ45uT~yba0uwfwhL7ZXLv-pCXFNww-1BJalvihgUBlo5oJKCLnLwyx5T04NTK8VuXQdff~-jfgfoNPUkqPxN3LZnTrL354JpNr6O3BcMRSak~Gaj6O9ivWy4AXq4rUsZD38p4gxvGnWY3-yxw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:06 : This lecture is about the mixture of unigram language models. 
 0:11 : In this lecture we will continue discussing probabilistic topic models. In particular, what we introduce a mixture of unigram language models. This is a slide that you have seen earlier. Where we talked about how to get rid of the background words that we have on top of for one document. 

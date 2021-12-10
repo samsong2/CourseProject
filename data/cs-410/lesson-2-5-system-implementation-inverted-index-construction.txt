@@ -1,5 +1,5 @@
 lesson-2-5-system-implementation-inverted-index-construction
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_24_Inverted_Index_CSRA_Final.fc8775c0d35e11e4ab109f73efd1c7bf/full/540p/index.webm?Expires=1639094400&Signature=iN7ytZbsPf3afBVRaJDHO5HJnnpTR~Fv~0GskdUaowB5oe6Z7NDlRqOjUlhlyyeJRhGbK8N8YqGbYbt9~AueJq9DUWbNBG5aZyKPo0pniETl7UmkwBYa80Posx15VfOeyxT6344ao98ZcMdsncizIV~Dn62W1N2kDRf6q52CNHY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_24_Inverted_Index_CSRA_Final.fc8775c0d35e11e4ab109f73efd1c7bf/full/540p/index.webm?Expires=1639267200&Signature=JyF2eyRZdQEipYpw81ZLwXCxX5LAg48~D8sykLvMXNJ10U200q89zQhGnp0LFOlBaG-s6rMAu4xzx5puhcLZZ5aZGP7lLlEQ3Bxc7TsbvqDzPlFb63-QTARgLuC4vOyP2BLuW5R~TMCdejMzXwyVHA5Meuk4BBYw4bxUJ1LGFQA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:07 : This lecture is about the inverted index construction. 
 0:13 : In this lecture, we will continue the discussion of system implementation. In particular, we're going to discuss how to construct the inverted index. 

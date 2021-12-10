@@ -1,5 +1,5 @@
 lesson-6-10-summary-for-exam-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_33_Summary_v2.ae9415c0df6c11e49655f7039a361a81/full/540p/index.webm?Expires=1639094400&Signature=knEpmSZWDt9DZoN3YsHh6Pj-yNyQl2yxDBd3pwqKtvjXm8iuJU6s07PA0wybr5YWk6BXvsrPbuU0wljKhXNZjG993xBdRpr~CQiuDvruB5IK0QjNUtwFOPT658okJtmdhImlNMBgzRbdMI~eIndSfcNWibJqH8Yb-8g5CC3dJwo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_33_Summary_v2.ae9415c0df6c11e49655f7039a361a81/full/540p/index.webm?Expires=1639267200&Signature=MI30CC83pYnoySBai6BFeq3ed1x4FAkhk40gmT791PiMoP4mHpjLV-qI2tvNNx5gfjP9Hzz-7U1e8zk5kOfPdNcZ8NCe2oa5rIUTY65COh-egjyNtoXdXhmeB66vxJhdliF1rIK945Sy8aFl8G1q3WLIWczYTFj9kCXCp4DdQeg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [NOISE] 
 0:06 : This lecture is a summary of this course. 
 0:12 : This map shows the major topics we have covered in this course. 

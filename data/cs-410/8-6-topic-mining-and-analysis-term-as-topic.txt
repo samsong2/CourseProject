@@ -1,5 +1,5 @@
 8-6-topic-mining-and-analysis-term-as-topic
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_13_CSRA_Final.d2a37e8010c511e5bb6bd98da695ecb2/full/540p/index.webm?Expires=1639094400&Signature=HeCa1YKobaYW82hoGytaqaNlW0uNu7aUhtEmjq5Afs1soB5xCkUK52bwTbkQHymYaCk~XhaxH4WtZgzDrCeB7uXQ7PkAQACQ~VLaj0rt8ot5VJnQMhEOPLEKsT7SrNDfsZmXAPYda9coY2UP84p7HXnze98SztWzb6IQ8~3FxKU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_13_CSRA_Final.d2a37e8010c511e5bb6bd98da695ecb2/full/540p/index.webm?Expires=1639267200&Signature=B8cjt7iu3HD1TtW53Fn6YX6BzDJez9KBbE6nRfWzwvd1R0L0iU36z3lrltU7-YjF4tL-QnefMmelxvWtJRSrSsBqGQsEGuFBoIvUmg3bJN-ufRob-vc6kROv~cCLhuGqF-V6Ot8SX4No~T2jLpKANimlJJRV1uDr3csqhnmR7ys_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:07 : This lecture is about topic mining and analysis. 
 0:12 : We're going to talk about using a term as topic. This is a slide that you have seen in a earlier lecture where we define the task of topic mining and analysis. We also raised the question, how do we exactly define the topic of theta? 
