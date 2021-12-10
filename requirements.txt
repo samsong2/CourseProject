@@ -1,3 +1,5 @@
 flask
 gunicorn
 whoosh
+bs4
+selenium
