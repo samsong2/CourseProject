@@ -20,7 +20,8 @@ https://mediaspace.illinois.edu/media/t/1_1lolt4vf
 
 ## Demo
 
-You can check try it out for youself here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)
+You can check try it out for youself here [Coursera Video Search](https://coursera-video-search.herokuapp.com/)  
+**Note:** The links to the videos may be broken due as the links to the vidoes regularly change on Coursera's end.
 
 ## Documentation and Usage
 
