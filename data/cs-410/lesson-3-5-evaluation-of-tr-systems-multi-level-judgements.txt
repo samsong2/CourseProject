@@ -1,5 +1,5 @@
 lesson-3-5-evaluation-of-tr-systems-multi-level-judgements
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_21_ndcg_Multi_Level_Revelance_Judgements_CSRA_Final_v2.8957f2e0d41d11e4830b0b2f4c79b06a/full/540p/index.webm?Expires=1639267200&Signature=VkFlBioBxk~PgMABmBefeIly5tcywfcz6GtfbnACH2Z02dlTjo-KhzJV6aUfOUVHP2OhxSnxE1ecGW1AxNDEZU3MxCfkYCn9bi99f1urzobIoMPYplIYrOPRMM64npqg1wav9qgpCIEk8In47JUiZGiRxZjydIBTKt6b2oiHJLI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_21_ndcg_Multi_Level_Revelance_Judgements_CSRA_Final_v2.8957f2e0d41d11e4830b0b2f4c79b06a/full/540p/index.webm?Expires=1639440000&Signature=VB9RNCog8Nw~dXj1G59mFPB-cpPRX88mVPzTEg8sRPYKlE33wZHSMVzZwy7trydpOd3joAMlppZheBj6U~jkFJYb9iZx0pme2QkILfv4SjoVUuBhCdBTORCV4Pxywq8iLPjB1CReJkIZxPXCMZdFsXggv04puu-n6fVpybVfmk4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [MUSIC] 
 0:07 : This lecture is about how to evaluate the text retrieval system when we have multiple levels of judgements. In this lecture, we will continue the discussion of evaluation. We're going to look at how to evaluate a text retrieval system, when we have multiple levels of judgements. 
 0:27 : So far we have talked about the binary judgements, that means a document is judged as being relevant or not relevant. 

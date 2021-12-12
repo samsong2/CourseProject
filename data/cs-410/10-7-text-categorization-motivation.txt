@@ -1,5 +1,5 @@
 10-7-text-categorization-motivation
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-28_CSRA_Final_V2.74a865c0191c11e59426e3efa5646819/full/540p/index.webm?Expires=1639267200&Signature=dT2a7m64ZIglusZgMEUAQZvaQFyqCA0l18A6mThSY497cZeAypCU8hR-zQJeFYtHY7QrYpMrx9~YOyeBdLE41Sw-81WEXY9o5WVpQ~~svQL1xpuewslUp0W~sI5JcZ0OPJMDbn7lRLT8P0LmC25nHMuh5enWenfJm12YGtSx3VA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-28_CSRA_Final_V2.74a865c0191c11e59426e3efa5646819/full/540p/index.webm?Expires=1639440000&Signature=W3xYxjrr0mdmHIWWIL4cp9UItQ~qqrZnU3K3lI1i3p6RU-D4Qvzcq1NA2~JtqtcK9sZBH9ek3sdzR67elnV7Wi44r~-vU82pmuH8J8CBmEdrFKTYyCxr8JyTOg95djtHD6Ko4vXnYjlL67IYO9otvpZWUiC5Bgf7IzOse1i~7ZU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:06 : This lecture is about text categorization. 
 0:11 : In this lecture, we're going to talk about text categorization. 

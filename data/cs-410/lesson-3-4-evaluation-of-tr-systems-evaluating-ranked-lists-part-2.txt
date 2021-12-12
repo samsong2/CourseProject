@@ -1,5 +1,5 @@
 lesson-3-4-evaluation-of-tr-systems-evaluating-ranked-lists-part-2
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_20_Map_Evaluate_Ranked_List_Part_2_CSRA_Final_v2.7a0d34e0d4c111e493667b7813a08fa7/full/540p/index.webm?Expires=1639267200&Signature=jNlXKK~jngAt~VreTfv55SpCwm7yJqw3iADJTsXG~o-DUxpvjUhz0T69eDt9UefgpwOJs~Hm1Pauxwho5NZuQhoulDj4TtTHCrBiTyRX5tWeZYhscwdi2bQ42knFaykvMkvmhIAGDxjaHZoOI46lTzc8dbyXDRQWMr2Z46alV7g_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_20_Map_Evaluate_Ranked_List_Part_2_CSRA_Final_v2.7a0d34e0d4c111e493667b7813a08fa7/full/540p/index.webm?Expires=1639440000&Signature=KQSAWQKebPEDgP-qOG-TC1x5Gg4AzV-ZEdPU6CMU9~BTDvNoYUt7ucX-24ByhyI~BKD1ym0tUWXv1Lk4JHbGplldu9FmMASv0LxESQD5B1QJofBj6Tkskf7tQ4MvyyVw7YxT4vVforK2sMmgN7L1BpZp8on-ETtXj7KUU~ed3MI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:11 : So average precision is computer for just one. one query. But we generally experiment with many different queries and this is to avoid the variance across queries. Depending on the queries you use you might make different conclusions. Right, so it's better then using more queries. 
 0:33 : If you use more queries then, you will also have to take the average of the average precision over all these queries. 

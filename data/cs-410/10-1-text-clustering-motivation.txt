@@ -1,5 +1,5 @@
 10-1-text-clustering-motivation
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-22_CSRA_Final.ebfb089016b411e59bbc0de0b3ffaa3f/full/540p/index.webm?Expires=1639267200&Signature=j4L8EeoVPIEBnvpBugeYoB11U3k59QE6Jt8AH-5uoJQ-wVBpUONCV8qUkIeJriSezxbDBV5mpSy72J9RyNFZfwekZ1DRC76BUrU5uXnOvIHOBf41gK1ln9wXSDTNWnmgDu5Fh5QMEMylnjAto6W7UahXqfC4Pg-Uf~afEN0fs38_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-22_CSRA_Final.ebfb089016b411e59bbc0de0b3ffaa3f/full/540p/index.webm?Expires=1639440000&Signature=cv955B9Ej~PQ8cc4-glKbK2UE9gZis0Z-l4ssA-7oH2fEXf7NebP1ZOvNpFohr5RTaLNf~IlCdVZqJ7PiC7p1WVn6P6lnrs-QTvpLsRIMzaXezV7ggzF0ud9q9avlScrEaAvKxeC11jesFDLnE-ds48eyyYC7JQrY9D8WZKCPZY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is the first one about the text clustering. 
 0:14 : In this lecture, we are going to talk about the text clustering. 
 0:18 : This is a very important technique for doing topic mining and analysis. In particular, in this lecture we're going to start with some basic questions about the clustering. 

@@ -1,5 +1,5 @@
 lesson-4-4-statistical-language-model-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-2014-7_13_3.4_smoothing_LM_p1.3a3638b0d95f11e4ad2a174f59d51d40/full/540p/index.webm?Expires=1639267200&Signature=BsDKNUHwc2DBCDEtVl0rdCajC90m8UR1hA64wiylAza6ESCR95lNxNNgKdz4v-Nhm1DFj2RzQ~JamB4pvW7SVf5Bjf3ylmfGgPxr4-bljJqY7DWuCdSNa8gX4CK4NeMmoPnD1LKQ0hbrIE7bAed~g9uejugqWyzIHTwQh-CWnjs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-2014-7_13_3.4_smoothing_LM_p1.3a3638b0d95f11e4ad2a174f59d51d40/full/540p/index.webm?Expires=1639440000&Signature=XSamxbCi~-80kYCYApo6Zwmo5rK9bCCYnhmLAyTPc3hOpBBVyJtHMO84TRBHGUMkKCC2tUTygJmGddfa9YGFzWSwVatMNxNh8FfLlp4TkonVYPPI6A4NVOOua1knzXuXjKKy8XncNORudHeA8IuUapNXG14Gb2qpT4qY7Tz0B5k_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about smoothing of language models. 
 0:11 : In this lecture, we're going to continue talking about the probabilistic retrieval model. In particular, we're going to talk about the smoothing of language model in the query likelihood retrieval method. 
 0:23 : So you have seen this slide from a previous lecture. This is the ranking function based on the query likelihood. 
