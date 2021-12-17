@@ -1,5 +1,5 @@
 8-7-topic-mining-and-analysis-probabilistic-topic-models
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_14_CSRA_Final.43a7881010c611e5b0e07bd2a943d449/full/540p/index.webm?Expires=1639440000&Signature=TAve0udehlkI-Do87sCd5oOKa1HK92qygZrVkJBXsHOs3PNppXSvoHhFMLPpAUfCUaMFIpuA95kcsXFbeaQiLPNwrtkYhKkagF3irvx6LFhgAMHvm5zLfWJngChtCGdwDy7XB640v3bYZMI~bC~TcssXUPtHLRMeQGiA4WeHlsQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM_14_CSRA_Final.43a7881010c611e5b0e07bd2a943d449/full/540p/index.webm?Expires=1639785600&Signature=N8jp1FFhwVcpJCb65Q1sdK5gSGrtnzJ8CUsOH79XoOzI81DbeNIpr2-o~7pFeWBaoD~4Cu5sPtgqLeOfkRWXc5hEsZaYqbv6nBF5~ozts5BWDDlAugLDHL5egYwlpYO4qJ1WIKO6lr5-7QpsnckCv~51Ic1ezUF4yoYNjjQyirc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:06 : This lecture is about Probabilistic Topic Models for topic mining and analysis. 
 0:13 : In this lecture, we're going to continue talking about the topic mining and analysis. 
 0:18 : We're going to introduce probabilistic topic models. 

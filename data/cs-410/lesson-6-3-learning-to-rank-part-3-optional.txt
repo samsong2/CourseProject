@@ -1,5 +1,5 @@
 lesson-6-3-learning-to-rank-part-3-optional
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_29_LearningtoRank_Part_3_V2.23c2f9c0df6c11e4bad7993d232815a7/full/540p/index.webm?Expires=1639440000&Signature=PUxQMHFSZqmd-Bs0avmclpQR7j7RAVzL0~SScITsiO1iO-2BFZklEi8XJQWK4FjUuuFsCQ8IxbwNnJfnCsX31QN3f0-hHwGLFjn4R~1WIhUDd~8W5u5Ejo6BIBB0Se3kKOjtCukX7F0kicDCG7wJWbjiqW3tfYEE7esKgwlPxYk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_29_LearningtoRank_Part_3_V2.23c2f9c0df6c11e4bad7993d232815a7/full/540p/index.webm?Expires=1639785600&Signature=Ne66hvXufsa-LfUaSzNOEhA~1y6WNfP60WNJ446c8chO7rh7Ai2LeNzEOnOZWWvmYjdWyrsep5zDVwINlKbfQT2ZPPv6-lbVsAYY2LvIoZMHZ5w-ijj27FinLp1PCOD~1Ulk2NCzBRPXgr5YPaWP4DkcXdrM-59K2sdkJlBVI~U_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] There are many more of the Munster learning algorithms than the regression based approaches and they generally attempt to direct the optimizer retrieval method. 
 0:16 : Like a MAP or nDCG. 
 0:19 : Note that the optimization object or function that we have seen on the previous slide is not directly related to the retrieval measure. 

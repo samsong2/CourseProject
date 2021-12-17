@@ -1,5 +1,5 @@
 lesson-4-3-query-likelihood-retrieval-function
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_13_Query_Likelihood_CSRA_Finalv2.e7304300da0c11e4b2698fee00eaa8bb/full/540p/index.webm?Expires=1639440000&Signature=V3APNIkTJhnsRL~QRXclfEC6Hl3koxm2DQwSKm7ZEeVpRF04fwSCiO8IlQWl5aVBbz68VLPTGbPTQfNB4KEzcaO654uY22DnQ0Jhgv3k-ACA~4aXifhr1P0n2hxQyNFQINWeshk8Fix3N0lz3TTMd4ZZKOYrPRw5b6YrcXonNfs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-7_13_Query_Likelihood_CSRA_Finalv2.e7304300da0c11e4b2698fee00eaa8bb/full/540p/index.webm?Expires=1639785600&Signature=CZWx-5gCFezK7LCSQY58k1sQJZPn2RDmCyPIstFgGB9VP15olyyz2uaC16zvDZ39ilK3HoODmKx3E~vmh-yImROlU5preEyRZesFLoXSS7JnRNB0M2EgUO0~2iWzNoPlTX-D2X0ZfRLHZsLhGaZzUD0e1sThJsBe5AsYb35aSyc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:07 : This lecture is about query likelihood, probabilistic retrieval model. 
 0:14 : In this lecture, we continue the discussion of probabilistic retrieval model. In particular, we're going to talk about the query light holder retrieval function. 

@@ -1,5 +1,5 @@
 11-6-opinion-mining-and-sentiment-analysis-sentiment-classification
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-36_CSRA_Final.153687c01c1e11e59ad6cb872b46c8a1/full/540p/index.webm?Expires=1639440000&Signature=caKKWT7Y4Udpp4q3WLQojFiHn4gWJYU4wdZCjKzF1g6bw9G0YePSAyZ0crqMb~~1ES6PohqNYjJQ1Gc-Z5RWSw-NzeaB2nriJi57o-bGegwK0jj2~cJq6RnQo4QU28RwhffUEe9boHOzkNeJcta2NwAlVFd6BP9jWq7WmGOUmbY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-36_CSRA_Final.153687c01c1e11e59ad6cb872b46c8a1/full/540p/index.webm?Expires=1639785600&Signature=jnDmRXjc7EX6nREgECLzQe1YWXkhIa3d9xrUKaNPQjj4llGFkig46AWZshyQivqZsAhysXeeUwG05P4A7qKayI6bNUlZGLrEqA9b~LA3L2B6BYdZ1OUFUQEx385RjhHmM5xRHjMzs633mXaTLSpCGDhkYQxXNN7spbW3JE~pdMo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [NOISE] This lecture is about the sentiment classification. 
 0:11 : If we assume that 
 0:13 : most of the elements in the opinion representation are all ready known, then our only task may be just a sentiment classification, as shown in this case. So suppose we know who's the opinion holder and what's the opinion target, and also know the content and the context of the opinion, then we mainly need to decide the opinion sentiment of the review. So this is a case of just using sentiment classification for understanding opinion. 

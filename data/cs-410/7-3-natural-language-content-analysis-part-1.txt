@@ -1,5 +1,5 @@
 7-3-natural-language-content-analysis-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-4_nlp.447f2c100a7311e5ad0a2106b99f12c7/full/540p/index.webm?Expires=1639440000&Signature=Zn79UyESlXzGCCmYNCNa79yF4PcSZ0Jv~Az6e9xfEbIEPtyf6LOe1upTM6~2bm1zxBqQUtfKtmS3hzP5kVn04aP4-3IxXKvFK6kOYKqvtQ8oLC2rICuvOq8Gq-1w29GTIx5YSJ3Nvp6iSHpB16zprQHE6Zbl51ijimUHwVMpUH4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-4_nlp.447f2c100a7311e5ad0a2106b99f12c7/full/540p/index.webm?Expires=1639785600&Signature=OuP~tDNg01Q9Xm0ktKJ8M~1dwO9MGqsE6lfn5NseTr0Uv1u7~dI0qLCxf5TkfT2ewHym8nnN2DeFawIq6QMOEIagiKxGCqiVTv0103qonVn44vDL1XySuteUnjK0tZ0iE1I1ltLuaaEZ7GxeEudMm-Q8FSp4l-O~G5a14fiNtKk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] 
 0:09 : This lecture is about natural language content analysis. Natural language content analysis is the foundation of text mining. So we're going to first talk about this. 
 0:24 : And in particular, natural language processing with a factor how we can present text data. 

@@ -1,5 +1,5 @@
 11-3-text-categorization-evaluation-part-1
-https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-33_CSRA_Final.6ae321e016da11e599a3f156b1d4ae85/full/540p/index.webm?Expires=1639440000&Signature=CM0pmnklchkwYINL7oeTjyl~5mBx3W0jeLkbv7wguczUZJpvhDzRqZJsGzv8WNUCQ6HCOovZojwYiZpweSk7xpW5HFYruxO1MO0SVQ1wtnzrd-ni4Yq-QamZLHnuO7SgI7SLldh2ll5SgHYy7-WuaQEB0UnXMQ3ozE~1K7RGrvo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+https://d18ky98rnyall9.cloudfront.net/CS-V-2014-10_TM-33_CSRA_Final.6ae321e016da11e599a3f156b1d4ae85/full/540p/index.webm?Expires=1639785600&Signature=G1i-w0hTizr6NwiBanfJICQGNE9DHtxm3CaRZYM5PFs0XOs4ljOFR0r8Vd3iPykKrG-0itg~g8ASKfTa9dQX2YWm2s1cgSNqm59lPofxmyPi9Gt6MXkpLN-QeKJ4p9R5PmtOYTZZbTTNWXaOF861AS7scOESzKg64AeNo3O6xyk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 0:00 : [SOUND] This lecture is about the Evaluation of Text Categorization. So we've talked about many different methods for text categorization. But how do you know which method works better? 
 0:19 : And for a particular application, how do you know this is the best way of solving your problem? To understand these, we have to 
 0:29 : how to we have to know how to evaluate categorization results. So first some general thoughts about the evaluation. 
